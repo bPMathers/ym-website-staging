@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        // marginTop: '60px',
+        marginTop: '60px',
     },
     mobileTitleSection: {
         display: 'flex',
