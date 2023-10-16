@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ym-website-staging/static/css/main.1ab4f44d.chunk.css",
-    "main.js": "/ym-website-staging/static/js/main.c58fb388.chunk.js",
-    "main.js.map": "/ym-website-staging/static/js/main.c58fb388.chunk.js.map",
+    "main.css": "/ym-website-staging/static/css/main.39dba3c0.chunk.css",
+    "main.js": "/ym-website-staging/static/js/main.dee2e40d.chunk.js",
+    "main.js.map": "/ym-website-staging/static/js/main.dee2e40d.chunk.js.map",
     "runtime-main.js": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js",
     "runtime-main.js.map": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js.map",
     "static/js/2.ec5b527a.chunk.js": "/ym-website-staging/static/js/2.ec5b527a.chunk.js",
     "static/js/2.ec5b527a.chunk.js.map": "/ym-website-staging/static/js/2.ec5b527a.chunk.js.map",
     "index.html": "/ym-website-staging/index.html",
-    "static/css/main.1ab4f44d.chunk.css.map": "/ym-website-staging/static/css/main.1ab4f44d.chunk.css.map",
+    "static/css/main.39dba3c0.chunk.css.map": "/ym-website-staging/static/css/main.39dba3c0.chunk.css.map",
     "static/js/2.ec5b527a.chunk.js.LICENSE.txt": "/ym-website-staging/static/js/2.ec5b527a.chunk.js.LICENSE.txt",
     "static/media/01-NBA-Logo.c891bff2.jpg": "/ym-website-staging/static/media/01-NBA-Logo.c891bff2.jpg",
     "static/media/02-FIFA-Logo2.6e57e57b.png": "/ym-website-staging/static/media/02-FIFA-Logo2.6e57e57b.png",
@@ -137,7 +137,7 @@
   "entrypoints": [
     "static/js/runtime-main.e2a4bb3a.js",
     "static/js/2.ec5b527a.chunk.js",
-    "static/css/main.1ab4f44d.chunk.css",
-    "static/js/main.c58fb388.chunk.js"
+    "static/css/main.39dba3c0.chunk.css",
+    "static/js/main.dee2e40d.chunk.js"
   ]
 }
