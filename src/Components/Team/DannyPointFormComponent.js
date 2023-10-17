@@ -53,11 +53,10 @@ const DannyPointFormComponent = () => {
                 <Typography variant="body2" className={classes.pointRowText}>
                     <span className={classes.point}>•</span> Whether touring the
                     world as band member with the three-time GRAMMY Award –
-                    winning <span className={classes.red}>Zac Brown Band</span>,
-                    embracing ingenuity with bold new ideas, or inspiring the
-                    masses with musical performances, there is little that
-                    remains a constant in the tremendous life of this musical
-                    behemoth.
+                    winning Zac Brown Band, embracing ingenuity with bold new
+                    ideas, or inspiring the masses with musical performances,
+                    there is little that remains a constant in the tremendous
+                    life of this musical behemoth.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
@@ -75,27 +74,11 @@ const DannyPointFormComponent = () => {
                     <span className={classes.point}>•</span> His resume is
                     chock-full of performing and recording credits that run the
                     gamut of those who respect and value the tremendous talent
-                    that is Daniel including:{' '}
-                    <span className={classes.red}>Sting</span>,{' '}
-                    <span className={classes.red}>David Foster</span>,{' '}
-                    <span className={classes.red}>James Taylor</span>,{' '}
-                    <span className={classes.red}>Don Henley</span>,{' '}
-                    <span className={classes.red}>Peter Frampton</span>,{' '}
-                    <span className={classes.red}>Chicago</span>,{' '}
-                    <span className={classes.red}>Withney</span>{' '}
-                    <span className={classes.red}>Houston</span>,{' '}
-                    <span className={classes.red}>Earth Wind and Fire</span>,{' '}
-                    <span className={classes.red}>Lionel Richie</span>,{' '}
-                    <span className={classes.red}>Diana Ross</span>,{' '}
-                    <span className={classes.red}>Donna Summer</span>,{' '}
-                    <span className={classes.red}>Faith Hill</span>,{' '}
-                    <span className={classes.red}>The Killers</span>,{' '}
-                    <span className={classes.red}>Sheryl Crow</span>,{' '}
-                    <span className={classes.red}>Michael Franti</span>,{' '}
-                    <span className={classes.red}>Jennifer Lopez</span>,{' '}
-                    <span className={classes.red}>Ricky Martin</span>,{' '}
-                    <span className={classes.red}>Pitbull</span>, and the list
-                    goes on.
+                    that is Daniel including: Sting, David Foster, James Taylor,{' '}
+                    Don Henley, Peter Frampton, Chicago, Withney Houston, Earth
+                    Wind and Fire, Lionel Richie, Diana Ross, Donna Summer,{' '}
+                    Faith Hill, The Killers, Sheryl Crow, Michael Franti,{' '}
+                    Jennifer Lopez, Ricky Martin, Pitbull, and the list goes on.
                 </Typography>
             </div>
         </div>

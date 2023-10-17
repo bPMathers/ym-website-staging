@@ -28,12 +28,7 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.common.gold,
         marginRight: '8px',
     },
-    link: {
-        color: '#F5EE9E',
-        textDecoration: 'none',
-        fontWeight: 700,
-    },
-    red: {
+    gold: {
         color: theme.palette.common.gold,
     },
 }));
@@ -48,54 +43,27 @@ const JoshPointFormComponent = () => {
                     Joshua Seth Eagan is a Studio Musician in Los Angeles and
                     has been part of The Steakhouse Studio in North Hollywood
                     for over 24 years now. His{' '}
-                    <span className={classes.red}>
-                        <a
-                            className={classes.red}
-                            href="https://www.facebook.com/pages/Studio-C-Joshua-Seth-Eagan-Productions/231120580322761"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            “Studio C”
-                        </a>
-                    </span>{' '}
+                    <a
+                        className={classes.gold}
+                        href="https://www.facebook.com/pages/Studio-C-Joshua-Seth-Eagan-Productions/231120580322761"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        “Studio C”
+                    </a>{' '}
                     musical facility is located on the top floor of The
-                    Steakhouse. <span className={classes.red}>“Studio C”</span>{' '}
-                    is where Joshua now produces many new artists and worked on
-                    Grammy Award winning records. Over the years Joshua has
-                    recorded / performed on sessions with{' '}
-                    <span className={classes.red}>Pink</span>,{' '}
-                    <span className={classes.red}>Candyman</span>,{' '}
-                    <span className={classes.red}>Tim Armstrong</span>,{' '}
-                    <span className={classes.red}>Sky Sweetnam</span>,{' '}
-                    <span className={classes.red}>David Paich</span>,{' '}
-                    <span className={classes.red}>Bernard Fowler</span>,{' '}
-                    <span className={classes.red}>Daniel de los Reyes</span>,{' '}
-                    <span className={classes.red}>Walfredo Reyes Jr</span>,{' '}
-                    <span className={classes.red}>Jimmy Haslip</span>,{' '}
-                    <span className={classes.red}>Alphonso Johnson</span>,{' '}
-                    <span className={classes.red}>Neil Stubenhaus</span>,{' '}
-                    <span className={classes.red}>Michael Landau</span>,{' '}
-                    <span className={classes.red}>Bobby Watson</span>,{' '}
-                    <span className={classes.red}>Sal Marquez</span>,{' '}
-                    <span className={classes.red}>Kristine W</span>,{' '}
-                    <span className={classes.red}>Bobby Kimball</span>,{' '}
-                    <span className={classes.red}>Jean-Michel Byron</span>,
-                    <span className={classes.red}> Masami Okui</span>,
-                    <span className={classes.red}> Steve Lukather</span>,{' '}
-                    <span className={classes.red}>Billy Sheehan</span>,{' '}
-                    <span className={classes.red}>
-                        James Baker &amp; Lonnie Jordan
-                    </span>{' '}
-                    of <span className={classes.red}>WAR</span>,{' '}
-                    <span className={classes.red}>Andy Vargas</span> of{' '}
-                    <span className={classes.red}>Santana</span>,{' '}
-                    <span className={classes.red}>
-                        Michael Sanders &amp; One Tribe Nation{' '}
-                    </span>
-                    and
-                    <span className={classes.red}> Jeff Millar-Sax</span>.
-                    Additionally, Joshua has performed on various soundtracks,
-                    movies and television shows.
+                    Steakhouse. “Studio C” is where Joshua now produces many new
+                    artists and worked on Grammy Award winning records. Over the
+                    years Joshua has recorded / performed on sessions with Pink,{' '}
+                    Candyman, Tim Armstrong, Sky Sweetnam, David Paich, Bernard
+                    Fowler, Daniel de los Reyes, Walfredo Reyes Jr, Jimmy
+                    Haslip, Alphonso Johnson, Neil Stubenhaus, Michael Landau,{' '}
+                    Bobby Watson, Sal Marquez, Kristine W, Bobby Kimball,{' '}
+                    Jean-Michel Byron, Masami Okui, Steve Lukather, Billy
+                    Sheehan, James Baker &amp; Lonnie Jordan of WAR, Andy Vargas
+                    of Santana, Michael Sanders &amp; One Tribe Nation and Jeff
+                    Millar-Sax. Additionally, Joshua has performed on various
+                    soundtracks, movies and television shows.
                 </Typography>
             </div>
         </div>
