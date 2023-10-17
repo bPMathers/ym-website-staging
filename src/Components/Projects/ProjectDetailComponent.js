@@ -46,21 +46,23 @@ const useStyles = makeStyles((theme) => ({
     containerToBeRenamed: {
         marginLeft: '40px',
         marginTop: '40px',
-        // width: '100%',
         display: 'flex',
         flexDirection: 'row',
-        // flex: 'space-between',
         justifyContent: 'flex-start',
         width: '80%',
     },
     listContainer: {
         minWidth: '300px', //this is temp
         paddingTop: '100px',
-        // backgroundColor: 'yellow',
     },
     list: {
-        padding: '10px',
-        // backgroundColor: 'red',
+        padding: '15px',
+        backgroundColor: '#1d1d1d',
+        borderRadius: '10px',
+        overflowY: 'scroll',
+        '&::-webkit-scrollbar': {
+            display: 'none',
+        },
     },
     // TODO: maybe need to pass with style prop to prevent flick
     listItem: {
