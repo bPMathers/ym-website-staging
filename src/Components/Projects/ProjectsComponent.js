@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // import { projectsData } from './ProjectsData';
 import ProjectDetailComponent from './ProjectDetailComponent';
 import ProjectComponent from './ProjectComponent';
+import { Input, InputLabel } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -21,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         justifyContent: 'center',
     },
+    rowsInput: {
+        backgroundColor: '#fff',
+        color: 'red',
+    },
 }));
 
 const ProjectsComponent = ({ projectsData }) => {
@@ -28,6 +33,7 @@ const ProjectsComponent = ({ projectsData }) => {
 
     const [detailOpen, setDetailOpen] = useState(false);
     const [selectedProject, setSelectedProject] = useState(undefined);
+    const [rows, setRows] = useState(3);
 
     const handleOnDetailClose = () => {
         setDetailOpen(false);
@@ -75,12 +81,19 @@ const ProjectsComponent = ({ projectsData }) => {
                 onSelectItemFromList={handleSelectItemFromList}
                 projectsData={projectsData}
             />
+            <InputLabel htmlFor="rows-input">Rangées</InputLabel>
+            <Input
+                id="rows-input"
+                onChange={(e) => setRows(e.target.value)}
+                className={classes.rowsInput}
+                value={rows}
+            />
             <div className={classes.container} open={detailOpen}>
                 <div className={classes.projectsListContainer}>
                     <div className={classes.projectsList}>
                         {projectsData
                             .sort((a, b) => a.id - b.id)
-                            .slice(0, 9)
+                            .slice(0, rows * 3)
                             .map((project) => {
                                 return (
                                     <div

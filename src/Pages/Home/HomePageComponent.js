@@ -1,14 +1,11 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { makeStyles } from '@material-ui/core/styles';
 
 import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 import NathanComponent from '../../Components/Nathan/NathanComponent';
 import CreativeCollaboratorsComponent from '../../Components/CC/CreativeCollaboratorsComponent';
-import NathanComponent2 from '../../Components/Contact/ContactComponent';
-import ContactComponent from '../../Components/Contact/ContactComponent';
 import { projectsData } from '../../Components/Projects/ProjectsData';
 
 const useStyles = makeStyles((theme) => ({
@@ -18,9 +15,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'stretch',
         paddingTop: '3px',
         marginBottom: '80px',
-        // width: '100px',
-        // height: '100vh', // TODO: find out of to not see head tops when loading
-        // width: 'max-content',
     },
     title: {
         width: '100%',
@@ -28,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: '15px',
-        // marginBottom: '15px',
         color: theme.palette.common.gold,
     },
     subtitleContainer: {
@@ -36,12 +29,9 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        // backgroundColor: theme.palette.secondary.main,
         color: '#fff',
-        // width: 'max-content',
         padding: '2px 5px',
         marginBottom: '30px',
-        // borderRadius: '5px',
     },
     subtitle: {
         lineHeight: 1.25,
@@ -49,9 +39,7 @@ const useStyles = makeStyles((theme) => ({
         letterSpacing: '9px',
     },
     teamSection: {
-        // marginTop: '80px',
         marginBottom: '50px',
-        // width: '100vw',
     },
     servicesSection: {
         marginBottom: '50px',
@@ -60,12 +48,10 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '50px',
     },
     creativeCollaboratorsSection: {
-        // marginBottom: '50px',
         marginTop: '70px',
     },
     contactSection: {
         marginBottom: '50px',
-        // filter: 'invert(1)',
     },
 }));
 

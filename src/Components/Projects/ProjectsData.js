@@ -401,18 +401,18 @@ export const projectsData = [
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: ivanhoeProjImg,
     },
-    {
-        id: 17,
-        title: 'Skoda Auto',
-        altTitle: 'Skoda Auto (2019)',
-        year: 2019,
-        location: 'Spain',
-        subtitle: 'Cirque du Soleil’s Special Event',
-        detailedSubtitle: undefined,
-        categoriesText:
-            'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: skoda4ProjImg,
-    },
+    // {
+    //     id: 17,
+    //     title: 'Skoda Auto',
+    //     altTitle: 'Skoda Auto (2019)',
+    //     year: 2019,
+    //     location: 'Spain',
+    //     subtitle: 'Cirque du Soleil’s Special Event',
+    //     detailedSubtitle: undefined,
+    //     categoriesText:
+    //         'Music Producing - Music Arrangement - Sound Design - Mixing',
+    //     bgImg: skoda4ProjImg,
+    // },
     {
         id: 30,
         title: 'Alibaba Single Gala',
