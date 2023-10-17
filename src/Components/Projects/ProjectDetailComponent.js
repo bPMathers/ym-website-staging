@@ -53,11 +53,12 @@ const useStyles = makeStyles((theme) => ({
     },
     listContainer: {
         minWidth: '300px', //this is temp
-        paddingTop: '100px',
+        paddingTop: '20px',
     },
     list: {
         padding: '15px',
-        backgroundColor: '#1d1d1d',
+        // backgroundColor: '#1d1d1d',
+        boxShadow: '0px 0px 10px rgba(255, 255, 255, 0.2)',
         borderRadius: '10px',
         overflowY: 'scroll',
         '&::-webkit-scrollbar': {
