@@ -4,10 +4,10 @@ import { Typography, Fade } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        width: 'calc(100vw / 3 - 10px)',
-        height: 'calc((100vw / 3) / 1.53)',
-        minWidth: '360px',
-        minHeight: '235px',
+        width: (props) => `calc(100vw / ${props.projGridWidth} - 10px)`,
+        height: (props) => `calc((100vw / ${props.projGridWidth}) / 1.53)`,
+        // minWidth: '360px',
+        // minHeight: '235px',
         backgroundColor: theme.palette.primary.main,
         background: (props) => `url(${props?.project?.bgImg})`,
         backgroundSize: (props) => 'cover',
@@ -18,8 +18,9 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     hoverContainer: {
-        minWidth: '360px',
-        minHeight: '235px',
+        // minWidth: '360px',
+        // minHeight: '235px',
+
         backgroundColor: 'rgba(13, 13, 13, 0.85)',
         position: 'absolute',
         top: 0,
@@ -28,15 +29,16 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: 'calc((100vw / 3) / 1.53)',
-        width: 'calc(100vw / 3 - 10px)',
+        height: (props) => `calc((100vw / ${props.projGridWidth}) / 1.53)`,
+        width: (props) => `calc(100vw / ${props.projGridWidth} - 10px)`,
         textDecoration: 'none',
+        overflow: 'hidden',
     },
     background: {
-        minWidth: '360px',
-        minHeight: '235px',
-        width: 'calc(100vw / 3 - 10px)',
-        height: 'calc((100vw / 3) / 1.53)',
+        // minWidth: '360px',
+        // minHeight: '235px',
+        width: (props) => `calc(100vw / ${props.projGridWidth} - 10px)`,
+        height: (props) => `calc((100vw / ${props.projGridWidth}) / 1.53)`,
 
         backgroundColor: theme.palette.primary.main,
         background: (props) => `url(${props?.project?.bgImg})`,

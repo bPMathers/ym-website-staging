@@ -139,9 +139,9 @@ export const projectsData = [
         altTitle: 'Songcheng and Moment Factory',
         year: 2017,
         location: 'Hangzhou, China',
-        subtitle:
+        subtitle: 'Songcheng installation',
+        detailedSubtitle:
             'Songcheng, one of the ten biggest theme park groups in the world, has asked Moment Factory to design a multimedia attraction that will put their park in Hangzhou at the forefront of the entertainment world',
-        detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Sound Design - 360-Degree Spatial Audio - Mixing',
         bgImg: mfProjImg,
