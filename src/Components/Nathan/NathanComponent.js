@@ -12,32 +12,80 @@ const useStyles = makeStyles((theme) => ({
     content: {
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'flex-end',
+        // alignItems: 'flex-end',
+        alignItems: 'center',
+        width: '100%',
+    },
+    videoRow: {
+        display: 'flex',
+        justifyContent: 'center',
+        width: '100%',
+    },
+    // .parent > *:not(:last-child) {
+    //     margin-right: 20px;  /* Adjust this value as needed */
+    // }
+
+    videoItem: {
+        '&:not(:last-child)': {
+            marginRight: '20px', // Adjust this value as needed
+        },
     },
 }));
+
+const videoWidth = '200px';
 
 const NathanComponent = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        document.querySelector('#nathanVideo1').playbackRate = 1;
+        // document.querySelector('#nathanVideo1').playbackRate = 1;
+        document.querySelectorAll('.videoItem').playbackRate = 1;
+        // document.querySelector('#nathanVideo1a').currentTime = 5;
+        // document.querySelector('#nathanVideo1b').currentTime = 10;
     }, []);
 
     return (
         <div className={classes.container}>
             <div className={classes.content}>
-                <video
-                    id="nathanVideo1"
-                    src={nathan5}
-                    width={'400px'}
-                    autoPlay={true}
-                    loop={true}
-                    muted
-                    style={{
-                        filter: 'hue-rotate(42deg)',
-                    }}
-                />
-                <Typography
+                <div className={classes.videoRow}>
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1a"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(22deg)',
+                        }}
+                    />
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1b"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(222deg)',
+                        }}
+                    />
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1c"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(322deg)',
+                        }}
+                    />
+                </div>
+                {/* <Typography
                     variant="h5"
                     style={{
                         color: 'white',
@@ -45,7 +93,7 @@ const NathanComponent = () => {
                     }}
                 >
                     Touch Designer: Nathan Roy
-                </Typography>
+                </Typography> */}
             </div>
         </div>
     );

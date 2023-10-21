@@ -12,16 +12,16 @@ const useStyles = makeStyles((theme) => ({
     titleContainer: {
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'stretch',
-        paddingTop: '3px',
-        marginBottom: '80px',
+        // alignItems: 'stretch',
+        // paddingTop: '3px',
+        marginBottom: '30px',
     },
     title: {
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        marginLeft: '15px',
+        // alignItems: 'center',
+        // marginLeft: '15px',
         color: theme.palette.common.gold,
     },
     subtitleContainer: {
@@ -34,9 +34,12 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '30px',
     },
     subtitle: {
-        lineHeight: 1.25,
-        marginLeft: '15px',
+        // lineHeight: 1.25,
+        // marginLeft: '15px',
         letterSpacing: '9px',
+        fontSize: '2rem',
+        fontWeight: 100,
+        color: theme.palette.secondary,
     },
     teamSection: {
         marginBottom: '50px',
@@ -66,7 +69,7 @@ const HomePageComponent = () => {
                         variant={'h1'}
                         style={{
                             letterSpacing: '10px',
-                            textShadow: '#6e5e08 1px 0 10px',
+                            textShadow: '#baa11c 1px 0 10px',
                             fontWeight: 400,
                         }}
                     >
@@ -75,10 +78,10 @@ const HomePageComponent = () => {
                 </div>
                 <div className={classes.subtitleContainer}>
                     <Typography
-                        variant={'subtitle1'}
+                        // variant={'subtitle1'}
                         className={classes.subtitle}
                     >
-                        HEARTS AND SPIRIT FROM MONTRÉAL
+                        HEART AND SPIRIT FROM MONTRÉAL
                     </Typography>
                 </div>
                 <NathanComponent />

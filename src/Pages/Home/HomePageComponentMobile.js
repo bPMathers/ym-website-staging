@@ -73,12 +73,12 @@ const HomePageComponentMobile = () => {
             <div id="projectsSection" className={classes.projectsSection}>
                 <ProjectsComponentMobile projectsData={projectsData} />
             </div>
-            <div
+            {/* <div
                 id="creativeCollaboratorsSection"
                 className={classes.creativeCollaboratorsSection}
             >
                 <CreativeCollaboratorsComponentMobile />
-            </div>
+            </div> */}
         </div>
     );
 };

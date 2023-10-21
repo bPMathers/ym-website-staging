@@ -2,13 +2,13 @@ import { createTheme } from '@material-ui/core/styles';
 
 // const yulRed = '#FF0000'; // TODO: rename to gold
 const yulRed = '#756300';
-const yulGold = '#756300';
+// const yulGold = '#756300';
 // const yulBlack = '#1c1c1c';
 const yulBlack = '#0d0d0d';
 const yulWhite = '#ededed';
 const yulYellow = '#ededed';
 // const yulYellow = '#F5EE9E';
-// const yulGold = '#FFD700';
+const yulGold = '#FFD700';
 
 export default createTheme({
     palette: {
@@ -39,6 +39,14 @@ export default createTheme({
             fontSize: '1rem',
             textTransform: 'none',
             color: 'white',
+        },
+        h1: {
+            fontFamily: 'Roboto',
+            fontWeight: 400,
+            fontSize: '12rem',
+            color: yulGold,
+            // lineHeight: 1.5,
+            textDecorationLine: 'none',
         },
         h2: {
             fontFamily: 'Roboto',

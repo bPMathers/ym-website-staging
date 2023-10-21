@@ -99,7 +99,7 @@ const ProjectsComponentMobile = ({ projectsData }) => {
                     <div className={classes.projectsList}>
                         {projectsData
                             .sort((a, b) => a.id - b.id)
-                            .slice(0, 9)
+
                             .map((project) => {
                                 return (
                                     <div
@@ -110,21 +110,21 @@ const ProjectsComponentMobile = ({ projectsData }) => {
                                         <ProjectComponentMobile
                                             project={project}
                                         />
-                                        <Typography
+                                        {/* <Typography
                                             className={classes.projectTitle}
                                         >
                                             {project.title}
-                                        </Typography>
+                                        </Typography> */}
                                     </div>
                                 );
                             })}
                     </div>
-                    <Button
+                    {/* <Button
                         className={classes.moreButton}
                         onClick={handleProjectClick(projectsData[0].id)}
                     >
                         SEE ALL PROJECTS
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
         </>
