@@ -13,7 +13,8 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.secondary.main,
         backgroundColor: theme.palette.primary.main,
         width: '100vw',
-        height: '100vh',
+        marginTop: '60px',
+        // height: '100vh',
     },
     logosContainer2: {
         width: '95%',
@@ -40,6 +41,8 @@ const CCPageMobile = () => {
                 style={{
                     marginBottom: '60px',
                     color: theme.palette.common.gold,
+                    fontSize: '1.5rem',
+                    fontWeight: 400,
                 }}
             >
                 Creative Collaborators

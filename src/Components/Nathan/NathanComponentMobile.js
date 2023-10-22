@@ -34,19 +34,12 @@ const useStyles = makeStyles((theme) => ({
 
 const NathanComponentMobile = () => {
     const classes = useStyles();
-    const videoWidth = '150px';
-
-    useEffect(() => {
-        // document.querySelector('#nathanVideo1').playbackRate = 1;
-        // document
-        //     .querySelector('#nathanVideo1mobile')
-        //     .addEventListener('touchstart', () => {
-        //         console.log('----------fdssf------------');
-        //         document.querySelector('#nathanVideo1mobile').play();
-        //     });
-    }, []);
+    const videoWidth = '100px';
 
     // const playVid = () => document.querySelector('#nathanVideo1').play();
+    useEffect(() => {
+        document.querySelectorAll('.videoItem').playbackRate = 1;
+    }, []);
 
     return (
         <div className={classes.container}>
@@ -57,19 +50,20 @@ const NathanComponentMobile = () => {
                 <div className={classes.videoRow}>
                     <video
                         className={classes.videoItem}
-                        id="nathanVideo1a"
+                        id="nathanVideoMobile1a"
                         src={nathan5}
                         width={videoWidth}
                         autoPlay={true}
                         loop={true}
-                        muted
                         style={{
                             filter: 'hue-rotate(22deg)',
                         }}
+                        muted={true}
+                        playsInline={true}
                     />
                     <video
                         className={classes.videoItem}
-                        id="nathanVideo1b"
+                        id="nathanVideoMobile1b"
                         src={nathan5}
                         width={videoWidth}
                         autoPlay={true}
@@ -81,7 +75,7 @@ const NathanComponentMobile = () => {
                     />
                     <video
                         className={classes.videoItem}
-                        id="nathanVideo1c"
+                        id="nathanVideoMobile1c"
                         src={nathan5}
                         width={videoWidth}
                         autoPlay={true}
