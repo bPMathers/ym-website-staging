@@ -68,7 +68,8 @@ const NathanComponentMobile = () => {
                         width={videoWidth}
                         autoPlay={true}
                         loop={true}
-                        muted
+                        muted={true}
+                        playsInline={true}
                         style={{
                             filter: 'hue-rotate(222deg)',
                         }}
@@ -80,7 +81,8 @@ const NathanComponentMobile = () => {
                         width={videoWidth}
                         autoPlay={true}
                         loop={true}
-                        muted
+                        muted={true}
+                        playsInline={true}
                         style={{
                             filter: 'hue-rotate(322deg)',
                         }}
