@@ -45,8 +45,8 @@ const DannyPointFormComponent = () => {
         <div className={classes.container}>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Vice President –
-                    Creative Development at YUL MUSIC
+                    <span className={classes.point}>•</span>Creative Development
+                    at YUL MUSIC
                 </Typography>
             </div>
             <div className={classes.pointRow}>
