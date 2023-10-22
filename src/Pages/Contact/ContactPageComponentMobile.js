@@ -51,7 +51,6 @@ const ContactPageComponentMobile = () => {
 
     return (
         <div className={classes.container}>
-            {/* <video src={nathan4} width={'250px'} autoPlay={true} loop={true} muted /> */}
             <div className={classes.contactItemGroup}>
                 <Typography
                     className={classes.contactItem}
@@ -75,15 +74,6 @@ const ContactPageComponentMobile = () => {
                 >
                     <Typography className={classes.contactItem} variant="h2">
                         christian@yulmusic.com
-                    </Typography>
-                </Button>
-                <Button
-                    rel="noopener noreferrer"
-                    href={`tel:+15148082868`}
-                    className={classes.contactItemBtn}
-                >
-                    <Typography className={classes.contactItem} variant="h2">
-                        514.808.2868
                     </Typography>
                 </Button>
             </div>
@@ -111,15 +101,6 @@ const ContactPageComponentMobile = () => {
                 >
                     <Typography className={classes.contactItem} variant="h2">
                         daniel@yulmusic.com
-                    </Typography>
-                </Button>
-                <Button
-                    rel="noopener noreferrer"
-                    href={`tel:+18187956043`}
-                    className={classes.contactItemBtn}
-                >
-                    <Typography className={classes.contactItem} variant="h2">
-                        818.795.6043
                     </Typography>
                 </Button>
             </div>

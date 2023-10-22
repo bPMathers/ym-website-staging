@@ -4,28 +4,28 @@ import dannyImg from '../../assets/Team/MemberChoiceItemPhotos/Danny-Black-Backg
 import joshImg from '../../assets/Team/MemberChoiceItemPhotos/Josh9-578x867.jpg';
 
 export const teamMemberData = [
-  {
-    id: 1,
-    name: 'Christan Lagueux',
-    role: 'FOUNDER - COMPOSER',
-    image: chrisImg,
-  },
-  {
-    id: 2,
-    name: 'Benjamin Proulx',
-    role: 'ARTISTIC DIRECTOR - COMPOSER',
-    image: benjImg,
-  },
-  {
-    id: 3,
-    name: 'Daniel de los Reyes',
-    role: 'VICE PRESIDENT - CREATIVE DEVELOPMENT',
-    image: dannyImg,
-  },
-  {
-    id: 4,
-    name: 'Joshua Eagan',
-    role: 'PARNTER - STUDIO C / THE STEAKHOUSE STUDIO',
-    image: joshImg,
-  },
+    {
+        id: 1,
+        name: 'Christan Lagueux',
+        role: 'FOUNDER - COMPOSER',
+        image: chrisImg,
+    },
+    {
+        id: 2,
+        name: 'Benjamin Proulx',
+        role: 'COMPOSER',
+        image: benjImg,
+    },
+    {
+        id: 3,
+        name: 'Daniel de los Reyes',
+        role: 'CREATIVE DEVELOPMENT',
+        image: dannyImg,
+    },
+    {
+        id: 4,
+        name: 'Joshua Eagan',
+        role: 'PARNTER - STUDIO C / THE STEAKHOUSE STUDIO',
+        image: joshImg,
+    },
 ];

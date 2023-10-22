@@ -74,6 +74,12 @@ const HomePageComponentMobile = () => {
                 <ProjectsComponentMobile projectsData={projectsData} />
             </div>
             {/* <div
+                id="contactSection"
+                className={classes.creativeCollaboratorsSection}
+            >
+                <CreativeCollaboratorsComponentMobile />
+            </div> */}
+            {/* <div
                 id="creativeCollaboratorsSection"
                 className={classes.creativeCollaboratorsSection}
             >

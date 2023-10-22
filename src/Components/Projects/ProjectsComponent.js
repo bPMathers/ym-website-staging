@@ -78,22 +78,25 @@ const ProjectsComponent = ({ projectsData }) => {
         setSelectedProject(projectsData[index]);
     };
 
-    function concatArrayInPlace(arr, times) {
-        if (times <= 1) {
-            return arr; // No need to concatenate if times is 1 or less
-        }
+    // function concatArrayInPlace(arr, times) {
+    //     if (times <= 1) {
+    //         return arr; // No need to concatenate if times is 1 or less
+    //     }
 
-        for (let i = 1; i < times; i++) {
-            arr = arr.concat(arr); // Concatenate the array with itself
-        }
+    //     for (let i = 1; i < times; i++) {
+    //         arr = arr.concat(arr); // Concatenate the array with itself
+    //     }
 
-        return arr;
-    }
+    //     return arr;
+    // }
 
-    const nineFirstProj = projectsData.sort((a, b) => a.id - b.id).slice(0, 9);
+    // const nineFirstProj = projectsData.sort((a, b) => a.id - b.id).slice(0, 9);
+
+    // const getProjs = () =>
+    //     concatArrayInPlace(nineFirstProj, items / 9).slice(0, items);
 
     const getProjs = () =>
-        concatArrayInPlace(nineFirstProj, items / 9).slice(0, items);
+        projectsData.sort((a, b) => a.id - b.id).slice(0, 20);
 
     return (
         <>
@@ -105,7 +108,7 @@ const ProjectsComponent = ({ projectsData }) => {
                 onSelectItemFromList={handleSelectItemFromList}
                 projectsData={projectsData}
             />
-            <div
+            {/* <div
                 style={{
                     paddingLeft: '20px',
                     width: '300px',
@@ -143,7 +146,7 @@ const ProjectsComponent = ({ projectsData }) => {
                         value={perRow}
                     />
                 </div>
-            </div>
+            </div> */}
             <div className={classes.container} open={detailOpen}>
                 <div className={classes.projectsListContainer}>
                     <div className={classes.projectsList}>
