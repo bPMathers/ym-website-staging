@@ -12,6 +12,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import HomePageComponentMobile from './Pages/Home/HomePageComponentMobile';
 import MenuComponentMobile from './Components/Menu/MenuComponentMobile';
 import ContactPageComponentMobile from './Pages/Contact/ContactPageComponentMobile';
+import CCPageMobile from './Pages/CC/CCPageMobile';
 const useStyles = makeStyles((theme) => ({}));
 
 export default function App() {
@@ -42,6 +43,11 @@ export default function App() {
                             {!isMobile && <ContactPageComponent />}
                             {isMobile && <ContactPageComponentMobile />}
                         </Route>
+                        {isMobile && (
+                            <Route path="/cc">
+                                <CCPageMobile />
+                            </Route>
+                        )}
                         {/* <Route path="/services">
                             <ServicesPageComponent />
                         </Route>

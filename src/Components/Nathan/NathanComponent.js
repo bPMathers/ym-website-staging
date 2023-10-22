@@ -12,9 +12,9 @@ const useStyles = makeStyles((theme) => ({
     content: {
         display: 'flex',
         flexDirection: 'column',
-        // alignItems: 'flex-end',
-        alignItems: 'center',
-        width: '100%',
+        alignItems: 'flex-end',
+        // alignItems: 'center',
+        // width: '100%',
     },
     videoRow: {
         display: 'flex',
@@ -38,10 +38,7 @@ const NathanComponent = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        // document.querySelector('#nathanVideo1').playbackRate = 1;
         document.querySelectorAll('.videoItem').playbackRate = 1;
-        // document.querySelector('#nathanVideo1a').currentTime = 5;
-        // document.querySelector('#nathanVideo1b').currentTime = 10;
     }, []);
 
     return (
@@ -85,7 +82,7 @@ const NathanComponent = () => {
                         }}
                     />
                 </div>
-                {/* <Typography
+                <Typography
                     variant="h5"
                     style={{
                         color: 'white',
@@ -93,7 +90,7 @@ const NathanComponent = () => {
                     }}
                 >
                     Touch Designer: Nathan Roy
-                </Typography> */}
+                </Typography>
             </div>
         </div>
     );

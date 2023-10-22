@@ -13,11 +13,28 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-end',
+        // alignItems: 'center',
+        // width: '100%',
+    },
+    videoRow: {
+        display: 'flex',
+        justifyContent: 'center',
+        width: '100%',
+    },
+    // .parent > *:not(:last-child) {
+    //     margin-right: 20px;  /* Adjust this value as needed */
+    // }
+
+    videoItem: {
+        '&:not(:last-child)': {
+            marginRight: '20px', // Adjust this value as needed
+        },
     },
 }));
 
 const NathanComponentMobile = () => {
     const classes = useStyles();
+    const videoWidth = '150px';
 
     useEffect(() => {
         // document.querySelector('#nathanVideo1').playbackRate = 1;
@@ -37,18 +54,44 @@ const NathanComponentMobile = () => {
                 className={classes.content}
                 // onClick={() => playVid()}
             >
-                <video
-                    id="nathanVideo1mobile"
-                    src={nathan5}
-                    width={'320px'}
-                    autoPlay={true}
-                    loop={true}
-                    muted={true}
-                    playsInline={true}
-                    style={{
-                        filter: 'hue-rotate(42deg)',
-                    }}
-                />
+                <div className={classes.videoRow}>
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1a"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(22deg)',
+                        }}
+                    />
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1b"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(222deg)',
+                        }}
+                    />
+                    <video
+                        className={classes.videoItem}
+                        id="nathanVideo1c"
+                        src={nathan5}
+                        width={videoWidth}
+                        autoPlay={true}
+                        loop={true}
+                        muted
+                        style={{
+                            filter: 'hue-rotate(322deg)',
+                        }}
+                    />
+                </div>
                 <Typography
                     variant="h5"
                     style={{

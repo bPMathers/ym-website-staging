@@ -171,31 +171,41 @@ export default function ProjectDetailComponentMobile(props) {
                     classes={{ root: classes.dialogContentRoot }}
                 >
                     <AppBar className={classes.appBar} position="fixed">
-                        <Toolbar>
-                            <IconButton
-                                edge="start"
-                                color="inherit"
-                                onClick={handleClose}
-                                aria-label="close"
-                            >
-                                <CloseIcon />
-                            </IconButton>
-                            <IconButton
-                                edge="start"
-                                color="inherit"
-                                onClick={handleNavigate('left')}
-                                aria-label="Navigate Left"
-                            >
-                                <ArrowLeft />
-                            </IconButton>
-                            <IconButton
-                                edge="start"
-                                color="inherit"
-                                onClick={handleNavigate('right')}
-                                aria-label="Navigate Right"
-                            >
-                                <ArrowRight />
-                            </IconButton>
+                        <Toolbar
+                            style={{
+                                width: 'auto',
+                                justifyContent: 'space-between',
+                            }}
+                        >
+                            <div>
+                                <IconButton
+                                    edge="start"
+                                    color="inherit"
+                                    onClick={handleClose}
+                                    aria-label="close"
+                                >
+                                    <CloseIcon />
+                                </IconButton>
+                            </div>
+                            <div>
+                                <IconButton
+                                    edge="start"
+                                    color="inherit"
+                                    onClick={handleNavigate('left')}
+                                    aria-label="Navigate Left"
+                                >
+                                    <ArrowLeft />
+                                </IconButton>
+                                <IconButton
+                                    edge="start"
+                                    color="inherit"
+                                    onClick={handleNavigate('right')}
+                                    aria-label="Navigate Right"
+                                    style={{ marginLeft: '20px' }}
+                                >
+                                    <ArrowRight />
+                                </IconButton>
+                            </div>
                         </Toolbar>
                     </AppBar>
                     <div className={classes.projectDetailContainer}>

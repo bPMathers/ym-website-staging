@@ -214,8 +214,8 @@ export default function MenuComponentMobile(props) {
                                             </Typography>
                                         </MenuItem>
                                     </HashLink>
-                                    <HashLink
-                                        to="/#creativeCollaboratorsSection"
+                                    <Link
+                                        to="/cc"
                                         style={{ textDecoration: 'none' }}
                                     >
                                         <MenuItem
@@ -231,7 +231,7 @@ export default function MenuComponentMobile(props) {
                                                 Creative Collaborators
                                             </Typography>
                                         </MenuItem>
-                                    </HashLink>
+                                    </Link>
                                     <Link
                                         to="/contact"
                                         style={{ textDecoration: 'none' }}

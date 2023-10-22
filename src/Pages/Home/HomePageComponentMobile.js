@@ -7,6 +7,7 @@ import NathanComponentMobile from '../../Components/Nathan/NathanComponentMobile
 import TeamComponentMobile from '../../Components/Team/TeamComponentMobile';
 import ProjectsComponentMobile from '../../Components/Projects/ProjectsComponentMobile';
 import CreativeCollaboratorsComponentMobile from '../../Components/CC/CreativeCollaboratorsComponentMobile';
+import ContactPageComponentMobile from '../Contact/ContactPageComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -16,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        marginTop: '60px',
+        // marginTop: '60px',
     },
     mobileTitleSection: {
         display: 'flex',
@@ -24,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flexDirection: 'column',
         marginBottom: '20px',
+        marginTop: '60px',
     },
     mobileTitle: {
         // width: '100%',
@@ -32,16 +34,17 @@ const useStyles = makeStyles((theme) => ({
         // padding: '15px',
         textAlign: 'center',
         letterSpacing: '10px',
-        textShadow: '#6e5e08 1px 0 10px',
+        textShadow: '#baa11c 1px 0 10px',
         fontWeight: 400,
-        fontSize: 50,
+        fontSize: '5rem',
     },
     mobileSubtitle: {
         lineHeight: 1.25,
         // padding: '15px',
         marginLeft: '15px',
-        letterSpacing: '9px',
-        fontSize: 12,
+        letterSpacing: '7px',
+        fontSize: '1rem',
+        fontWeight: 300,
         textAlign: 'center',
     },
 }));
@@ -63,7 +66,7 @@ const HomePageComponentMobile = () => {
                     variant={'subtitle1'}
                     className={classes.mobileSubtitle}
                 >
-                    HEARTS AND SPIRIT FROM MONTRÉAL
+                    HEART AND SPIRIT FROM MONTRÉAL
                 </Typography>
             </div>
             <NathanComponentMobile />
@@ -73,12 +76,12 @@ const HomePageComponentMobile = () => {
             <div id="projectsSection" className={classes.projectsSection}>
                 <ProjectsComponentMobile projectsData={projectsData} />
             </div>
-            {/* <div
+            <div
                 id="contactSection"
                 className={classes.creativeCollaboratorsSection}
             >
-                <CreativeCollaboratorsComponentMobile />
-            </div> */}
+                <ContactPageComponentMobile />
+            </div>
             {/* <div
                 id="creativeCollaboratorsSection"
                 className={classes.creativeCollaboratorsSection}

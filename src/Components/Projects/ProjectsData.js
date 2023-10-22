@@ -93,12 +93,12 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nbaProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/157210250' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/157210250' },
+            },
+        ],
     },
     {
         id: 2,
@@ -169,12 +169,12 @@ export const projectsData = [
         categoriesText: 'Music Composing - Music Producing - Mixing',
         // bgImg: oneDropProjImg,
         bgImg: microsoftImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/133273251' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/133273251' },
+            },
+        ],
     },
     {
         id: 29,
@@ -186,14 +186,14 @@ export const projectsData = [
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: diriyah2ProjImg,
         // possible types: img, video, others?
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
+                },
+            },
+        ],
     },
     {
         id: 71,
@@ -205,14 +205,14 @@ export const projectsData = [
             "Heli Drone Images - In the Bahamas filming for TV Show Jeter l'ancre",
         categoriesText: 'Music Composing - Mixing',
         bgImg: heliDroneProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/814345333?h=1ed63afd37',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/814345333?h=1ed63afd37',
+                },
+            },
+        ],
     },
     {
         id: 61,
@@ -371,14 +371,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
         bgImg: boccaProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/808655403?h=aa1ebea41d',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808655403?h=aa1ebea41d',
+                },
+            },
+        ],
     },
     {
         id: 34,
@@ -429,6 +429,7 @@ export const projectsData = [
     {
         id: 31,
         title: 'Beijing Parkview Green Inauguration',
+        altTitle: 'Beijing Parkview',
         year: 2013,
         location: 'Beijing, China',
         subtitle: 'Artistic performance for the Parkview Green inauguration.',
@@ -449,14 +450,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
         bgImg: sbm3ProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/808652228?h=35840d87b4',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/808652228?h=35840d87b4',
+                },
+            },
+        ],
     },
     {
         id: 72,
@@ -467,14 +468,14 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: romyImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/814690219',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/814690219',
+                },
+            },
+        ],
     },
     {
         id: 44,
@@ -533,14 +534,14 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing ',
         bgImg: biteImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/196015834',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/196015834',
+                },
+            },
+        ],
     },
     {
         id: 8,
@@ -553,12 +554,12 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: googleProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/204619615' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/204619615' },
+            },
+        ],
     },
     {
         id: 17.2,
@@ -572,14 +573,14 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: skoda4ProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/241883171?h=21ce290877',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/241883171?h=21ce290877',
+                },
+            },
+        ],
     },
     {
         id: 38,
@@ -605,13 +606,13 @@ export const projectsData = [
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: ydlmProjImg,
         extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/240054639?h=20dea6340e',
+                },
+            },
             { type: 'img', data: ydlm2ProjImg },
-            // {
-            //     type: 'video',
-            //     data: {
-            //         src: 'https://player.vimeo.com/video/240054639?h=20dea6340e',
-            //     },
-            // },
             // { type: 'video', data: { src: '' } }, // la descente, besoin de password ?
         ],
     },
@@ -692,12 +693,12 @@ export const projectsData = [
         categoriesText:
             'Additional Music Producing - Additional Music Arrangement - Mixing',
         bgImg: poppinsProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/171801726' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/171801726' },
+            },
+        ],
     },
     {
         id: 65,
@@ -709,12 +710,12 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: mobiliaImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/157359901' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/157359901' },
+            },
+        ],
     },
     {
         id: 9,
@@ -767,14 +768,14 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: doArtImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/89856619',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/89856619',
+                },
+            },
+        ],
     },
     {
         id: 49,
@@ -786,14 +787,14 @@ export const projectsData = [
             'The Great Hall, also known as the Cathedral of Science, is a 7,000 square foot exhibition space enclosed by a 100 foot tall scalloped dalle de verre façade, where 5400 inch-thick panels of cobalt blue glass are cast into concrete tiles and then set into cast-in-place concrete cells. In order to access each of the tiles, an elaborate scaffold has been constructed in the Great Hall, echoing the undulation of the concrete walls with a matrix of metal pipes and wooden planks',
         categoriesText: 'Music Composing - Sound Design - Mixing',
         bgImg: situImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/151970616',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/151970616',
+                },
+            },
+        ],
     },
     {
         id: 66,
@@ -805,14 +806,14 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: sidLeeProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/128518658?h=caa4ee603b&title=0&byline=0',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/128518658?h=caa4ee603b&title=0&byline=0',
+                },
+            },
+        ],
     },
     {
         id: 18,
@@ -827,12 +828,12 @@ export const projectsData = [
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: bomb3ProjImg,
         extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/209994952' },
+            },
             { type: 'img', data: bomb6ProjImg },
             { type: 'img', data: bomb7ProjImg },
-            // {
-            //     type: 'video',
-            //     data: { src: 'https://player.vimeo.com/video/209994952' },
-            // },
         ],
     },
     {
@@ -845,12 +846,12 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: biionProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/131800532' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/131800532' },
+            },
+        ],
     },
     {
         id: 33,
@@ -908,12 +909,12 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: nucleusProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/90028196' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/90028196' },
+            },
+        ],
     },
     // {
     //     id: 4430,
@@ -942,14 +943,14 @@ export const projectsData = [
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: glade2ProjImg,
         extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/116108158',
+                },
+            },
             { type: 'img', data: glade3ProjImg },
             { type: 'img', data: glade4ProjImg },
-            // {
-            //     type: 'video',
-            //     data: {
-            //         src: 'https://player.vimeo.com/video/116108158',
-            //     },
-            // },
         ],
     },
     // {
@@ -973,12 +974,12 @@ export const projectsData = [
             'LAX Tom Bradley International Terminal. The Largest Immersive Multimedia Installation',
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: laxProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: { src: 'https://player.vimeo.com/video/214673610' },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/214673610' },
+            },
+        ],
     },
     {
         id: 36,
@@ -1000,20 +1001,20 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
         bgImg: oneDropProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/136266499?h=4333a17910',
-        //         },
-        //     },
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/89806963?h=7284023a10',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/136266499?h=4333a17910',
+                },
+            },
+            // {
+            //     type: 'video',
+            //     data: {
+            //         src: 'https://player.vimeo.com/video/89806963?h=7284023a10',
+            //     },
+            // },
+        ],
     },
     {
         id: 43,
@@ -1067,14 +1068,14 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: q50ProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/134233531',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/134233531',
+                },
+            },
+        ],
     },
     {
         id: 55.5,
@@ -1156,10 +1157,10 @@ export const projectsData = [
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: courchevelProjImg,
         extraMedia: [
-            // {
-            //     type: 'video',
-            //     data: { src: 'https://player.vimeo.com/video/136457217' },
-            // },
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/136457217' },
+            },
             { type: 'img', data: courch5ProjImg },
         ],
     },
@@ -1173,14 +1174,14 @@ export const projectsData = [
             'Danny Elfman assistant with Thierry Angers in Iris, a Cirque du Soleil show in Los Angeles',
         detailedSubtitle: undefined,
         bgImg: irisImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/234518821',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/234518821',
+                },
+            },
+        ],
     },
     {
         id: 74,
@@ -1203,13 +1204,13 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing ',
         bgImg: csaProjImg,
-        // extraMedia: [
-        //     {
-        //         type: 'video',
-        //         data: {
-        //             src: 'https://player.vimeo.com/video/175960386',
-        //         },
-        //     },
-        // ],
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/175960386',
+                },
+            },
+        ],
     },
 ];
