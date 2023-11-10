@@ -27,8 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
     contactItemBtn: {
         display: 'flex',
-        margin: '0px',
-        paddingTop: '10px',
+        padding: '0px',
     },
     separator: {
         backgroundColor: theme.palette.common.gold,
