@@ -44,7 +44,7 @@ const NathanComponentMobile = () => {
                         marginRight={'0px'}
                     />
                 </div>
-                <Typography
+                {/* <Typography
                     variant="h5"
                     style={{
                         color: 'white',
@@ -52,7 +52,7 @@ const NathanComponentMobile = () => {
                     }}
                 >
                     Touch Designer: Nathan Roy
-                </Typography>
+                </Typography> */}
             </div>
         </div>
     );

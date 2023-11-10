@@ -98,7 +98,6 @@ const HomePageComponentMobile = () => {
                         color: '#666',
                         fontSize: '18px',
                         fontWeight: 400,
-                        // fontFamily: '',
                     }}
                 >
                     Touch Designer videos by{' '}
