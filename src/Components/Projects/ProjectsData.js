@@ -1,3 +1,10 @@
+import grandBalProjImg from '../../assets/Projects/69-Grandbaldesvins-cœurs-Logo.jpeg';
+import mineraProjImg from '../../assets/Projects/51-MineraSanta-Maria150thAnniversary.jpg';
+import bravuraProjImg from '../../assets/Projects/46-CirqueduSoleil-Bravura.jpg';
+import g7projImg from '../../assets/Projects/44-G72018.jpg';
+import timHortonsImg2 from '../../assets/Projects/Tim_Hortons-Logo.jpg';
+import masterCardProjImg2 from '../../assets/Projects/mastercard-logo-png-transparent.jpg';
+import michaelEastonProjImg from '../../assets/Projects/27-MichaelEaston-Logo.jpeg';
 import cameronImg from '../../assets/Projects/25 - Paramount 100th - Logo 02.jpeg';
 import beijingImg from '../../assets/Logos/Test/Beijing Parkview - Logo.png';
 import irisImg from '../../assets/Projects/26 - Cirque du Soleil - Iris - Logo.jpg';
@@ -21,19 +28,19 @@ import Andorra2015ProjImg from '../../assets/Projects/Andorra2015.jpg';
 import microsoftImg from '../../assets/Projects/_featured/microsoft2023.jpg';
 import Andorra2014ProjImg from '../../assets/Projects/Andorra2014.jpg';
 import deloitteProjImg from '../../assets/Logos/Test/Deloitte - Logo.png';
-import rexelProjImg from '../../assets/Logos/Test/Rexel - Logo.png';
+import rexelProjImg from '../../assets/Projects/Rexel.jpg';
 import tpgProjImg from '../../assets/Logos/Test/tpg-logo4.png';
-import ivanhoeProjImg from '../../assets/Projects/Ivanoe Cambridge - Log.jpeg';
+import ivanhoeProjImg from '../../assets/Projects/52-IvanhoeCambridge-LogoRev.jpg';
 import skoda4ProjImg from '../../assets/Projects/_featured/17-SkodaAuto-Logo2.jpg';
 import cdsProjImg from '../../assets/Projects/_featured/CDS-2023.jpg';
-import clubMedProjImg from '../../assets/Logos/Test/Club Med - Logo.png';
+import clubMedProjImg from '../../assets/Projects/ClubMed.jpg';
 import hiltonProjImg from '../../assets/Projects/43 - Hilton Hotels and Resorts - Logo.png';
 import sbm3ProjImg from '../../assets/Logos/Test/SBM3.png';
 import oneDropProjImg from '../../assets/Projects/_featured/OneDrop.jpg';
 import wefProjImg from '../../assets/Logos/Test/World Economic Forum - Logo2.png';
 import sunLifeProjImg from '../../assets/Projects/_featured/13-SunLife-Logo.jpg';
 import cnProjImg from '../../assets/Logos/Test/Canadian National Railway - Logo.png';
-import c2ProjImg from '../../assets/Logos/Test/C2 - Logo.png';
+import c2ProjImg from '../../assets/Projects/C2-Logo2.jpg';
 import dubaiProjImg from '../../assets/Projects/_featured/12-TheDubaiMall-Logo.jpg';
 import nbaProjImg from '../../assets/Projects/_featured/01-NBA-Logo.jpg';
 import ydlmProjImg from '../../assets/Projects/_featured/Sardine-Run-02.jpg';
@@ -68,14 +75,13 @@ import poppinsProjImg from '../../assets/Projects/Mary-poppins-High-Res2-1.jpg';
 import nucleusProjImg from '../../assets/Projects/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import sidLeeProjImg from '../../assets/Projects/SID-LEE3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import eyProjImg from '../../assets/Projects/_featured/15-Ernst&Young-Logo.jpg';
-import diriyah1ProjImg from '../../assets/Projects/Diriyah1.jpg';
-import diriyah2ProjImg from '../../assets/Projects/Diriyah2.jpg';
+import eyProjImg2 from '../../assets/Projects/EY-MainRoom.jpg';
 import masterCardProjImg from '../../assets/Projects/07-Mastercard-BlackLogo.jpg';
 import iona1ProjImg from '../../assets/Projects/Iona1.jpg';
-import iona2ProjImg from '../../assets/Projects/Iona2.jpg';
-import iona3ProjImg from '../../assets/Projects/Iona3.jpg';
 import tMobileProjImg from '../../assets/Projects/_featured/11-T-Mobile-Logo-2.jpg';
 import googleProjImg from '../../assets/Projects/_featured/08-Google-Logo.png';
+import ZacBrownProjImg from '../../assets/Projects/75-ZacBrownBand-NewLogo.jpg';
+import timeProjImg from '../../assets/Projects/29-TimeEntertainment-Logo.jpg';
 
 // TODO: lighthouse
 // TODO: lazyload some stuff ? make sure site does not try to get all images before they are needed
@@ -99,6 +105,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/157210250' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 2,
@@ -145,6 +152,13 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Sound Design - 360-Degree Spatial Audio - Mixing',
         bgImg: mfProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/233866505' },
+            },
+        ],
+        hideLogo: true,
     },
     {
         id: 5,
@@ -175,6 +189,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/133273251' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 29,
@@ -184,16 +199,47 @@ export const projectsData = [
         subtitle: 'Diriyah Season Opening Ceremony',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
-        bgImg: diriyah2ProjImg,
-        // possible types: img, video, others?
+        bgImg: timeProjImg,
+    },
+    {
+        id: 70,
+        title: 'Trio Orange',
+        altTitle: 'Trio Orange - Hôtels et restos',
+        year: 2012,
+        location: 'Montreal, Quebec, Remote',
+        subtitle: "Hôtels et restos d'exception",
+        detailedSubtitle: "Hôtels et restos d'exception TV Show",
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        bgImg: heliDroneProjImg,
         extraMedia: [
             {
                 type: 'video',
                 data: {
-                    src: 'https://player.vimeo.com/video/808649228?h=1ed63afd37',
+                    src: 'https://player.vimeo.com/video/96963215',
                 },
             },
         ],
+        hideLogo: true,
+    },
+    {
+        id: 70.5,
+        title: 'Trio Orange',
+        altTitle: 'Trio Orange - En pays maya',
+        year: 2012,
+        location: 'Montreal, Quebec, Remote',
+        subtitle: 'En pays maya',
+        detailedSubtitle: 'Geneviève Borne au Mexique “En pays maya” TV Show',
+        categoriesText: 'Music Composing - Sound Design - Mixing',
+        bgImg: heliDroneProjImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/89807140',
+                },
+            },
+        ],
+        hideLogo: true,
     },
     {
         id: 71,
@@ -213,6 +259,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 61,
@@ -228,11 +275,13 @@ export const projectsData = [
         title: 'Ernst & Young',
         year: 2022,
         location: 'Chicago, United States',
-        subtitle: 'Special Event - Chicago',
-        detailedSubtitle: 'Ernst & Young - Chicago Special Event',
+        subtitle: '2022 Innovation Realized Global Summit',
+        detailedSubtitle:
+            'Ernst & Young - 2022 Innovation Realized Global Summit',
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: eyProjImg,
+        extraMedia: [{ type: 'img', data: eyProjImg2 }],
     },
     {
         id: 7,
@@ -247,9 +296,10 @@ export const projectsData = [
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: masterCardProjImg,
         extraMedia: [{ type: 'img', data: MasterCard2 }],
+        hideLogo: true,
     },
     {
-        id: 4960,
+        id: 69,
         title: 'Grand bal des vins-cœurs and Cirque du Soleil',
         altTitle: 'Grand bal des vins-cœurs',
         year: '2021 - 2019 - 2015 - 2009',
@@ -258,10 +308,10 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: grandBalProjImg,
     },
     {
-        id: 4950,
+        id: 21,
         title: 'P&O Cruises Onboard shows',
         year: 2021,
         location: 'London, United Kingdom',
@@ -270,10 +320,10 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: iona1ProjImg,
-        extraMedia: [
-            { type: 'img', data: iona2ProjImg },
-            { type: 'img', data: iona3ProjImg },
-        ],
+        // extraMedia: [
+        //     { type: 'img', data: iona2ProjImg },
+        //     { type: 'img', data: iona3ProjImg },
+        // ],
     },
     {
         id: 13,
@@ -303,7 +353,7 @@ export const projectsData = [
         year: '2020, 2018, 2017, 2015, 2013',
         location: 'Various locations, Worldwide',
         subtitle: 'Worldwide Conventions',
-        detailedSubtitle: 'The SAP Convention',
+        detailedSubtitle: 'The SAP Conventions',
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: sapProjImg,
     },
@@ -379,6 +429,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 34,
@@ -458,6 +509,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 72,
@@ -476,6 +528,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 44,
@@ -488,7 +541,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: g7projImg,
     },
     {
         id: 54,
@@ -523,7 +576,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: masterCardProjImg,
+        bgImg: masterCardProjImg2,
     },
     {
         id: 68,
@@ -542,7 +595,18 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
+    // {
+    //     id: 69,
+    //     title: 'Grand bal des vins-cœurs',
+    //     year: 2017,
+    //     location: 'Montreal, Canada',
+    //     subtitle: 'Cirque du Soleil',
+    //     detailedSubtitle: 'Grand bal des vins-cœurs and Cirque du Soleil',
+    //     categoriesText: 'Music Composing - Sound Design - Mixing ',
+    //     bgImg: biteImg,
+    // },
     {
         id: 8,
         title: 'Google',
@@ -560,6 +624,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/204619615' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 17.2,
@@ -581,6 +646,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 38,
@@ -612,9 +678,10 @@ export const projectsData = [
                     src: 'https://player.vimeo.com/video/240054639?h=20dea6340e',
                 },
             },
-            { type: 'img', data: ydlm2ProjImg },
+            // { type: 'img', data: ydlm2ProjImg },
             // { type: 'video', data: { src: '' } }, // la descente, besoin de password ?
         ],
+        hideLogo: true,
     },
     {
         id: 12,
@@ -637,7 +704,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Arrangement - Music Producing - Sound Design - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: bravuraProjImg,
     },
     {
         id: 73,
@@ -670,6 +737,13 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Post-production',
         bgImg: cameronImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/808710028' },
+            },
+        ],
+        hideLogo: true,
     },
     {
         id: 39,
@@ -699,6 +773,20 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/171801726' },
             },
         ],
+        hideLogo: true,
+    },
+    {
+        id: 24.5,
+        title: 'Zac Brown Band',
+        altTitle: 'Zac Brown Band',
+        year: 2014,
+        location: 'Los Angeles, USA',
+        subtitle: undefined,
+        detailedSubtitle:
+            'Opening Soundtrack for the Zac Brown Band’s Great American Road Trip Tour',
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        bgImg: ZacBrownProjImg,
+        // hideLogo: true,
     },
     {
         id: 65,
@@ -716,6 +804,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/157359901' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 9,
@@ -748,6 +837,13 @@ export const projectsData = [
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
         bgImg: deferlImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: { src: 'https://player.vimeo.com/video/152183951' },
+            },
+        ],
+        hideLogo: true,
     },
     {
         id: 40,
@@ -776,6 +872,27 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
+    },
+    {
+        id: 60,
+        title: 'YUL MUSIC',
+        year: 2010,
+        location: 'Montreal, Canada ',
+        subtitle: 'Train the Circus Beyond',
+        detailedSubtitle: undefined,
+        categoriesText:
+            'Music Composing - Music Producing - Sound Design - Mixing',
+        // bgImg: doArtImg,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/245541148',
+                },
+            },
+        ],
+        hideLogo: true,
     },
     {
         id: 49,
@@ -795,6 +912,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 66,
@@ -832,9 +950,10 @@ export const projectsData = [
                 type: 'video',
                 data: { src: 'https://player.vimeo.com/video/209994952' },
             },
-            { type: 'img', data: bomb6ProjImg },
-            { type: 'img', data: bomb7ProjImg },
+            // { type: 'img', data: bomb6ProjImg },
+            // { type: 'img', data: bomb7ProjImg },
         ],
+        hideLogo: true,
     },
     {
         id: 48,
@@ -852,6 +971,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/131800532' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 33,
@@ -863,7 +983,6 @@ export const projectsData = [
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
         bgImg: cocProjImg,
-        extraMedia: [{ type: 'img', data: coc3rojImg }],
     },
     {
         id: 22,
@@ -915,6 +1034,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/90028196' },
             },
         ],
+        hideLogo: true,
     },
     // {
     //     id: 4430,
@@ -949,9 +1069,8 @@ export const projectsData = [
                     src: 'https://player.vimeo.com/video/116108158',
                 },
             },
-            { type: 'img', data: glade3ProjImg },
-            { type: 'img', data: glade4ProjImg },
         ],
+        hideLogo: true,
     },
     // {
     //     id: 4410,
@@ -990,7 +1109,13 @@ export const projectsData = [
             'Cirque du Soleil artistic performance for the 50th birthday of Tim Hortons',
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
-        bgImg: timProjImg,
+        bgImg: timHortonsImg2,
+        extraMedia: [
+            {
+                type: 'img',
+                data: timProjImg,
+            },
+        ],
     },
     {
         id: 58,
@@ -1015,6 +1140,7 @@ export const projectsData = [
             //     },
             // },
         ],
+        hideLogo: true,
     },
     {
         id: 43,
@@ -1076,6 +1202,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 55.5,
@@ -1090,8 +1217,26 @@ export const projectsData = [
         bgImg: cdsProjImg,
     },
     {
+        id: 57,
+        title: 'One Drop Foundation',
+        year: 2014,
+        location: 'Worldwide',
+        subtitle: 'Transforming Water Into Action Campaign',
+        detailedSubtitle: undefined,
+        categoriesText: 'Music Composing - Music Producing - Mixing',
+        // bgImg: oneDropProjImg69,
+        extraMedia: [
+            {
+                type: 'video',
+                data: {
+                    src: 'https://player.vimeo.com/video/122764253',
+                },
+            },
+        ],
+    },
+    {
         id: 47,
-        title: 'Cirque du Soleil Events Experiences',
+        title: 'Cirque du Soleil',
         year: 2012,
         location: 'Astana City, Kazakhstan',
         subtitle: 'Astana City Celebration in Kazakhstan',
@@ -1131,7 +1276,7 @@ export const projectsData = [
             'A Cirque du Soleil special event for the Minera Santa-Maria 150th Anniversary',
         detailedSubtitle: undefined,
         categoriesText: 'Music Music Producing - Mixing',
-        bgImg: cdsProjImg,
+        bgImg: mineraProjImg,
     },
     {
         id: 23,
@@ -1161,8 +1306,8 @@ export const projectsData = [
                 type: 'video',
                 data: { src: 'https://player.vimeo.com/video/136457217' },
             },
-            { type: 'img', data: courch5ProjImg },
         ],
+        hideLogo: true,
     },
     {
         id: 26,
@@ -1182,6 +1327,17 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
+    },
+    {
+        id: 27,
+        title: 'Michael Easton',
+        year: 2017,
+        location: 'Los Angeles, USA',
+        subtitle: 'First Strike Butcher Knife Short Film',
+        detailedSubtitle: undefined,
+        bgImg: michaelEastonProjImg,
+        categoriesText: 'Music Producing - Music Arrangement - Mixing',
     },
     {
         id: 74,
@@ -1212,5 +1368,6 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
 ];

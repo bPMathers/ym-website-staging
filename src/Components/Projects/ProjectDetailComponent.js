@@ -377,13 +377,16 @@ export default function ProjectDetailComponent(props) {
                                                 </>
                                             );
                                         })}
-                                    {projectDetail.bgImg && (
-                                        <img
-                                            src={projectDetail.bgImg}
-                                            className={classes.detailMediaItem}
-                                            alt="Project"
-                                        />
-                                    )}
+                                    {projectDetail.bgImg &&
+                                        !projectDetail.hideLogo && (
+                                            <img
+                                                src={projectDetail.bgImg}
+                                                className={
+                                                    classes.detailMediaItem
+                                                }
+                                                alt="Project"
+                                            />
+                                        )}
                                     {projectDetail.extraMedia &&
                                         projectDetail.extraMedia.map(
                                             (media, index) => {

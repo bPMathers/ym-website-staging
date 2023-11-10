@@ -45,10 +45,10 @@ const ChrisPointFormComponent = () => {
             </Typography>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>President – Founder
-                    and business developer of YUL MUSIC, a Montreal and Los
-                    Angeles-based company, dedicated to music creation and audio
-                    content production.
+                    <span className={classes.point}>•</span>Founder and business
+                    developer of YUL MUSIC, a Montreal and Los Angeles-based
+                    company, dedicated to music creation and audio content
+                    production.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
