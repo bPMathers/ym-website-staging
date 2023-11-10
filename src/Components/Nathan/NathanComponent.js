@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import nathan5 from '../../assets/Nathan/viz_05.mp4';
 import { Typography } from '@material-ui/core';
+import NathanIndividualVideo from './NathanIndividualVideo';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -13,73 +13,35 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-end',
-        // alignItems: 'center',
-        // width: '100%',
     },
     videoRow: {
         display: 'flex',
         justifyContent: 'center',
         width: '100%',
     },
-    // .parent > *:not(:last-child) {
-    //     margin-right: 20px;  /* Adjust this value as needed */
-    // }
-
-    videoItem: {
-        '&:not(:last-child)': {
-            marginRight: '20px', // Adjust this value as needed
-        },
-    },
 }));
-
-const videoWidth = '200px';
 
 const NathanComponent = () => {
     const classes = useStyles();
-
-    useEffect(() => {
-        document.querySelectorAll('.videoItem').playbackRate = 1;
-    }, []);
 
     return (
         <div className={classes.container}>
             <div className={classes.content}>
                 <div className={classes.videoRow}>
-                    <video
-                        className={classes.videoItem}
-                        id="nathanVideo1a"
-                        src={nathan5}
-                        width={videoWidth}
-                        autoPlay={true}
-                        loop={true}
-                        muted
-                        style={{
-                            filter: 'hue-rotate(22deg)',
-                        }}
+                    <NathanIndividualVideo
+                        width={'200px'}
+                        hue={22}
+                        marginRight={'20px'}
                     />
-                    <video
-                        className={classes.videoItem}
-                        id="nathanVideo1b"
-                        src={nathan5}
-                        width={videoWidth}
-                        autoPlay={true}
-                        loop={true}
-                        muted
-                        style={{
-                            filter: 'hue-rotate(222deg)',
-                        }}
+                    <NathanIndividualVideo
+                        width={'200px'}
+                        hue={122}
+                        marginRight={'20px'}
                     />
-                    <video
-                        className={classes.videoItem}
-                        id="nathanVideo1c"
-                        src={nathan5}
-                        width={videoWidth}
-                        autoPlay={true}
-                        loop={true}
-                        muted
-                        style={{
-                            filter: 'hue-rotate(322deg)',
-                        }}
+                    <NathanIndividualVideo
+                        width={'200px'}
+                        hue={222}
+                        marginRight={'0px'}
                     />
                 </div>
                 <Typography
