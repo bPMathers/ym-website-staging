@@ -12,6 +12,7 @@ const NathanIndividualVideo = (props) => {
                 filter: `hue-rotate(${props.hue}deg)`,
                 marginRight: props.marginRight,
             }}
+            playsInline={true}
         />
     );
 };
