@@ -82,6 +82,36 @@ const HomePageComponentMobile = () => {
             >
                 <ContactPageComponentMobile />
             </div>
+            <div
+                style={{
+                    display: 'flex',
+                    width: '100%',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginTop: '40px',
+                    marginBottom: '40px',
+                }}
+            >
+                <Typography
+                    variant="h5"
+                    style={{
+                        color: '#666',
+                        fontSize: '18px',
+                        fontWeight: 400,
+                        // fontFamily: '',
+                    }}
+                >
+                    Touch Designer videos by{' '}
+                    <a
+                        href="https://www.instagram.com/nocturne.idae/"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ color: '#FFD700' }}
+                    >
+                        Nathan Roy
+                    </a>{' '}
+                </Typography>
+            </div>
             {/* <div
                 id="creativeCollaboratorsSection"
                 className={classes.creativeCollaboratorsSection}
