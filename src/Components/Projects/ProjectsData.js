@@ -932,6 +932,7 @@ export const projectsData = [
                 },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 18,
@@ -1099,6 +1100,7 @@ export const projectsData = [
                 data: { src: 'https://player.vimeo.com/video/214673610' },
             },
         ],
+        hideLogo: true,
     },
     {
         id: 36,
@@ -1110,12 +1112,12 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText: 'Music Producing - Music Arrangement - Mixing',
         bgImg: timHortonsImg2,
-        extraMedia: [
-            {
-                type: 'img',
-                data: timProjImg,
-            },
-        ],
+        // extraMedia: [
+        //     {
+        //         type: 'img',
+        //         data: timProjImg,
+        //     },
+        // ],
     },
     {
         id: 58,
