@@ -100,7 +100,6 @@ const ProjectsComponentMobile = ({ projectsData }) => {
                     <div className={classes.projectsList}>
                         {projectsData
                             .sort((a, b) => a.id - b.id)
-                            .slice(0, 20)
                             .map((project) => {
                                 return (
                                     <div

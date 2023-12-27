@@ -1,87 +1,87 @@
-import grandBalProjImg from '../../assets/Projects/69-Grandbaldesvins-cœurs-Logo.jpeg';
-import mineraProjImg from '../../assets/Projects/51-MineraSanta-Maria150thAnniversary.jpg';
-import bravuraProjImg from '../../assets/Projects/46-CirqueduSoleil-Bravura.jpg';
-import g7projImg from '../../assets/Projects/44-G72018.jpg';
-import timHortonsImg2 from '../../assets/Projects/Tim_Hortons-Logo.jpg';
-import masterCardProjImg2 from '../../assets/Projects/mastercard-logo-png-transparent.jpg';
-import michaelEastonProjImg from '../../assets/Projects/27-MichaelEaston-Logo.jpeg';
-import cameronImg from '../../assets/Projects/25 - Paramount 100th - Logo 02.jpeg';
-import beijingImg from '../../assets/Logos/Test/Beijing Parkview - Logo.png';
-import irisImg from '../../assets/Projects/26 - Cirque du Soleil - Iris - Logo.jpg';
-import alibabaImg from '../../assets/Projects/30 - Alibaba - Logo - Black.png';
-import fosunImg from '../../assets/Projects/40 - Fosun - Logo.png';
-import situImg from '../../assets/Projects/Situ.jpg';
-import tianguisImg from '../../assets/Projects/50 - Mexico Tourism - Logo.png';
-import jnfImg from '../../assets/Projects/73-JewishNationalFoundation-Logo.png';
-import doArtImg from '../../assets/Projects/streetartnews_herakut_canada_montreal-4.jpg';
-import mobiliaImg from '../../assets/Projects/65 - Mobilia 50th Birthday Campaign - Logo.png';
-import deferlImg from '../../assets/Projects/67 - Productions Déferlantes - Logo.jpeg';
-import biteImg from '../../assets/Projects/BiteSize-Logo.jpg';
-import heliDroneProjImg from '../../assets/Projects/Heli_Drone.jpg';
-import romyImg from '../../assets/Projects/72 - Romy & Aksel Web Campaign - Logo.jpeg';
+import nbaProjImg from '../../assets/Projects/_featured/01-NBA-Logo.jpg';
+import fifaProjImg from '../../assets/Projects/_featured/02-FIFA-Logo2.png';
+import cdsProjImg from '../../assets/Projects/_featured/CDS-2023.jpg';
+import mfProjImg from '../../assets/Projects/_featured/04-MomentFactory-Logo.jpg';
+import mtlChProjImg from '../../assets/Projects/_featured/05-MontrealCanadiens-Logo.jpg';
+import microsoftImg from '../../assets/Projects/_featured/06-microsoft2023.jpg';
+import masterCardProjImg from '../../assets/Projects/_featured/07-Mastercard-BlackLogo.jpg';
+import googleProjImg from '../../assets/Projects/_featured/08-Google-Logo.png';
+import bulgariProjImg from '../../assets/Projects/_featured/09-Bulgari-Logo.png';
+import grandBalProjImg from '../../assets/Projects/_featured/69-Grandbaldesvins-cœurs.jpg';
+import mineraProjImg from '../../assets/Projects/_featured/51-MineraSanta-Maria.jpg';
+import bravuraProjImg from '../../assets/Projects/_featured/46-CDS-Bravura.jpg';
+import g7projImg from '../../assets/Projects/_featured/44-G72018.jpg';
+import timHortonsImg2 from '../../assets/Projects/_featured/36-TimHortons.jpg';
+import masterCardProjImg2 from '../../assets/Projects/_featured/28-2-mastercard.jpg';
+import michaelEastonProjImg from '../../assets/Projects/_featured/27-MichaelEaston.jpg';
+import cameronImg from '../../assets/Projects/_featured/25-paramount.jpg';
+import beijingImg from '../../assets/Projects/_featured/31-Beijing.jpg';
+import irisImg from '../../assets/Projects/_featured/26-iris.jpg';
+import alibabaImg from '../../assets/Projects/_featured/30-Alibaba.jpg';
+import fosunImg from '../../assets/Projects/_featured/40-Fosun.jpg';
+import situImg from '../../assets/Projects/_featured/49-SituStudio.jpg';
+import tianguisImg from '../../assets/Projects/_featured/50-MexicoTourism.jpg';
+import jnfImg from '../../assets/Projects/_featured/73-JNF.jpg';
+import doArtImg from '../../assets/Projects/_featured/59-DoArtFoundation.jpg';
+import mobiliaImg from '../../assets/Projects/_featured/65-Mobilia50thBirthdayCampaign.jpg';
+import deferlImg from '../../assets/Projects/_featured/67-ProductionsDéferlantes.jpg';
+import biteImg from '../../assets/Projects/_featured/68-BiteSizeEntertainement.jpg';
+import heliDroneProjImg from '../../assets/Projects/_featured/71-helidrone.png';
+import romyImg from '../../assets/Projects/_featured/72-Romy.jpg';
 import mscImg from '../../assets/Projects/_featured/22-MSCCruises-Logo.jpg';
 import peiImg from '../../assets/Projects/_featured/74-PrinceEdwardIsland-Logo.jpg';
 import salesForceImg from '../../assets/Projects/_featured/10-SalesForce-Logo3.png';
 import Andorra2016ProjImg from '../../assets/Projects/Andorra2016.jpg';
-import MasterCard2 from '../../assets/Projects/07-Mastercard-2.jpg';
+import MasterCard2 from '../../assets/Projects/_featured/07-Mastercard-BlackLogo.jpg';
 import Andorra2015ProjImg from '../../assets/Projects/Andorra2015.jpg';
-import microsoftImg from '../../assets/Projects/_featured/microsoft2023.jpg';
 import Andorra2014ProjImg from '../../assets/Projects/Andorra2014.jpg';
-import deloitteProjImg from '../../assets/Logos/Test/Deloitte - Logo.png';
-import rexelProjImg from '../../assets/Projects/Rexel.jpg';
-import tpgProjImg from '../../assets/Logos/Test/tpg-logo4.png';
-import ivanhoeProjImg from '../../assets/Projects/52-IvanhoeCambridge-LogoRev.jpg';
+import deloitteProjImg from '../../assets/Projects/_featured/62-Deloitte.jpg';
+import rexelProjImg from '../../assets/Projects/_featured/39-Rexel.jpg';
+import tpgProjImg from '../../assets/Projects/_featured/38-TPG.jpg';
+import ivanhoeProjImg from '../../assets/Projects/_featured/52-IvanhoeCambridge.jpg';
 import skoda4ProjImg from '../../assets/Projects/_featured/17-SkodaAuto-Logo2.jpg';
-import cdsProjImg from '../../assets/Projects/_featured/CDS-2023.jpg';
-import clubMedProjImg from '../../assets/Projects/ClubMed.jpg';
-import hiltonProjImg from '../../assets/Projects/43 - Hilton Hotels and Resorts - Logo.png';
-import sbm3ProjImg from '../../assets/Logos/Test/SBM3.png';
+import clubMedProjImg from '../../assets/Projects/_featured/42-ClubMed.jpg';
+import hiltonProjImg from '../../assets/Projects/_featured/43-Hilton.jpg';
+import sbm3ProjImg from '../../assets/Projects/_featured/53-MonteCarlo.jpg';
 import oneDropProjImg from '../../assets/Projects/_featured/OneDrop.jpg';
-import wefProjImg from '../../assets/Logos/Test/World Economic Forum - Logo2.png';
+import wefProjImg from '../../assets/Projects/_featured/45-WEF.jpg';
 import sunLifeProjImg from '../../assets/Projects/_featured/13-SunLife-Logo.jpg';
-import cnProjImg from '../../assets/Logos/Test/Canadian National Railway - Logo.png';
-import c2ProjImg from '../../assets/Projects/C2-Logo2.jpg';
+import cnProjImg from '../../assets/Projects/_featured/34-CN.jpg';
+import c2ProjImg from '../../assets/Projects/_featured/61-C2-Logo2.jpg';
 import dubaiProjImg from '../../assets/Projects/_featured/12-TheDubaiMall-Logo.jpg';
-import nbaProjImg from '../../assets/Projects/_featured/01-NBA-Logo.jpg';
-import ydlmProjImg from '../../assets/Projects/_featured/Sardine-Run-02.jpg';
-import ydlm2ProjImg from '../../assets/Projects/Sardine-Run-01.jpg';
-import boccaProjImg from '../../assets/Projects/Bôcca - Poster.jpg';
+import ydlmProjImg from '../../assets/Projects/_featured/63-MarioCyr.jpg';
+import boccaProjImg from '../../assets/Projects/_featured/41-Monaco2019.jpg';
 import nicolasProjImg from '../../assets/Projects/Champagne Nicolas Feuillate - Campagne monde equilibriste.jpg';
-import fifaProjImg from '../../assets/Projects/_featured/02-FIFA-Logo2.png';
-import astanaProjImg from '../../assets/Projects/_featured/Astana_Christian-Lagueux_Benjamin-Proulx-Mathers_YUL-MUSIC_Composer_Montréal-721x471.jpg';
+import astanaProjImg from '../../assets/Projects/_featured/47-Astana.jpg';
 import laxProjImg from '../../assets/Projects/_featured/20-LAX.jpg';
-import mjProjImg from '../../assets/Projects/Michael-Jackson-The-Immortal-World-Tour-by-Cirque-du-Soleil_YUL-MUSIC-Christian-Lagueux-Benjamin-Proulx-Mathers-Sébastien-Laurendeau.jpg';
-import mtlChProjImg from '../../assets/Projects/_featured/MontrealCanadiens-Logo.jpg';
+import mjProjImg from '../../assets/Projects/_featured/23-Michael.jpg';
+
 import csaProjImg from '../../assets/Projects/_featured/19-CSA.jpg';
 import bakuProjImg from '../../assets/Projects/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import q50ProjImg from '../../assets/Projects/_featured/16-InifinityCar-Logo.jpg';
 import sapProjImg from '../../assets/Projects/_featured/14-SAP-Logo.jpg';
-import timProjImg from '../../assets/Projects/20131203-Tims-Exterior.jpg';
 import biionProjImg from '../../assets/Projects/Biion-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import bomb3ProjImg from '../../assets/Projects/_featured/18-bombardier-plane.jpg';
-import bomb6ProjImg from '../../assets/Projects/bomb-6-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import bomb7ProjImg from '../../assets/Projects/bomb-7-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import bulgariProjImg from '../../assets/Projects/_featured/09-Bulgari-Logo.png';
-import cocProjImg from '../../assets/Projects/COC-MTL-2.jpg';
-import coc3rojImg from '../../assets/Projects/Olympic-Rings-Montreal-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+
+import cocProjImg from '../../assets/Projects/_featured/33-CoC.jpg';
 import courchevelProjImg from '../../assets/Projects/_featured/courchevel-night-1-721x471.jpg';
-import courch5ProjImg from '../../assets/Projects/Courchevel-5-1024x640.jpg';
 import glade2ProjImg from '../../assets/Projects/glade-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import glade3ProjImg from '../../assets/Projects/glade-3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import glade4ProjImg from '../../assets/Projects/glade-4-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import mfProjImg from '../../assets/Projects/_featured/04-MomentFactory-Logo.jpg';
-import magnum2ProjImg from '../../assets/Projects/Magnum-Logo-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import poppinsProjImg from '../../assets/Projects/Mary-poppins-High-Res2-1.jpg';
+import scJohnsonProjImg from '../../assets/Projects/_featured/32-SCJ.jpg';
+import magnum2ProjImg from '../../assets/Projects/_featured/35-magnum.jpg';
+import poppinsProjImg from '../../assets/Projects/_featured/24-MaryPop.jpg';
 import nucleusProjImg from '../../assets/Projects/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
-import sidLeeProjImg from '../../assets/Projects/SID-LEE3-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
+import lotoQuebecProjImg from '../../assets/Projects/_featured/64-LotoQuebec.jpg';
+import sidLeeProjImg from '../../assets/Projects/_featured/66-SidLee.jpg';
 import eyProjImg from '../../assets/Projects/_featured/15-Ernst&Young-Logo.jpg';
 import eyProjImg2 from '../../assets/Projects/EY-MainRoom.jpg';
-import masterCardProjImg from '../../assets/Projects/07-Mastercard-BlackLogo.jpg';
-import iona1ProjImg from '../../assets/Projects/Iona1.jpg';
+import CarnivalCruisesProjImg from '../../assets/Projects/_featured/21-Carnival.jpg';
 import tMobileProjImg from '../../assets/Projects/_featured/11-T-Mobile-Logo-2.jpg';
-import googleProjImg from '../../assets/Projects/_featured/08-Google-Logo.png';
-import ZacBrownProjImg from '../../assets/Projects/75-ZacBrownBand-NewLogo.jpg';
-import timeProjImg from '../../assets/Projects/29-TimeEntertainment-Logo.jpg';
+import ZacBrownProjImg from '../../assets/Projects/_featured/24-5-ZacBrownBand-NewLogo.jpg';
+import timeProjImg from '../../assets/Projects/_featured/29-TimeEntertainment-Logo.jpg';
+import trioOrangeProjImg from '../../assets/Projects/_featured/70-TrioOrange.jpg';
+import trainProjImg from '../../assets/Projects/_featured/60-YULMUSIC-TraintheCircusBeyond.jpg';
+import oneDropProjImg2 from '../../assets/Projects/_featured/58-OneDropOneNight.jpg';
+import monaco2018ProjImg2 from '../../assets/Projects/_featured/41-5-Monaco2018.jpg';
 
 // TODO: lighthouse
 // TODO: lazyload some stuff ? make sure site does not try to get all images before they are needed
@@ -210,7 +210,7 @@ export const projectsData = [
         subtitle: "Hôtels et restos d'exception",
         detailedSubtitle: "Hôtels et restos d'exception TV Show",
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        bgImg: heliDroneProjImg,
+        bgImg: trioOrangeProjImg,
         extraMedia: [
             {
                 type: 'video',
@@ -230,7 +230,7 @@ export const projectsData = [
         subtitle: 'En pays maya',
         detailedSubtitle: 'Geneviève Borne au Mexique “En pays maya” TV Show',
         categoriesText: 'Music Composing - Sound Design - Mixing',
-        bgImg: heliDroneProjImg,
+        bgImg: trioOrangeProjImg,
         extraMedia: [
             {
                 type: 'video',
@@ -319,7 +319,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Producing - Music Arrangement - Sound Design - Mixing',
-        bgImg: iona1ProjImg,
+        bgImg: CarnivalCruisesProjImg,
         // extraMedia: [
         //     { type: 'img', data: iona2ProjImg },
         //     { type: 'img', data: iona3ProjImg },
@@ -500,7 +500,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - On site supervision',
-        bgImg: sbm3ProjImg,
+        bgImg: monaco2018ProjImg2,
         extraMedia: [
             {
                 type: 'video',
@@ -883,7 +883,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        // bgImg: doArtImg,
+        bgImg: trainProjImg,
         extraMedia: [
             {
                 type: 'video',
@@ -1028,7 +1028,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: nucleusProjImg,
+        bgImg: lotoQuebecProjImg,
         extraMedia: [
             {
                 type: 'video',
@@ -1037,22 +1037,6 @@ export const projectsData = [
         ],
         hideLogo: true,
     },
-    // {
-    //     id: 4430,
-    //     title: 'One Drop Foundation',
-    //     year: 2014,
-    //     location: 'Worldwide Campaign',
-    //     subtitle: 'Transforming Water Into Action Campaign',
-    //     detailedSubtitle: undefined,
-    //     categoriesText: 'Music Composing - Music Producing - Mixing',
-    //     bgImg: oneDropProjImg,
-    //     // extraMedia: [
-    //     //     {
-    //     //         type: 'video',
-    //     //         data: { src: 'https://player.vimeo.com/video/122764253' },
-    //     //     },
-    //     // ],
-    // },
     {
         id: 32,
         title: 'SC Johnson',
@@ -1062,7 +1046,7 @@ export const projectsData = [
         detailedSubtitle: undefined,
         categoriesText:
             'Music Composing - Music Producing - Sound Design - Mixing',
-        bgImg: glade2ProjImg,
+        bgImg: scJohnsonProjImg,
         extraMedia: [
             {
                 type: 'video',
@@ -1226,7 +1210,7 @@ export const projectsData = [
         subtitle: 'Transforming Water Into Action Campaign',
         detailedSubtitle: undefined,
         categoriesText: 'Music Composing - Music Producing - Mixing',
-        // bgImg: oneDropProjImg69,
+        bgImg: oneDropProjImg2,
         extraMedia: [
             {
                 type: 'video',
