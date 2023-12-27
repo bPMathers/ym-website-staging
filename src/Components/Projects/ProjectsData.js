@@ -1323,7 +1323,8 @@ export const projectsData = [
         subtitle: 'First Strike Butcher Knife Short Film',
         detailedSubtitle: undefined,
         bgImg: michaelEastonProjImg,
-        categoriesText: 'Music Producing - Music Arrangement - Mixing',
+        categoriesText:
+            'Music Composition - Music Producing - Music Arrangement - Mixing',
     },
     {
         id: 74,
