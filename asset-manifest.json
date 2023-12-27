@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ym-website-staging/static/css/main.39dba3c0.chunk.css",
-    "main.js": "/ym-website-staging/static/js/main.723b57f6.chunk.js",
-    "main.js.map": "/ym-website-staging/static/js/main.723b57f6.chunk.js.map",
+    "main.js": "/ym-website-staging/static/js/main.438f367a.chunk.js",
+    "main.js.map": "/ym-website-staging/static/js/main.438f367a.chunk.js.map",
     "runtime-main.js": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js",
     "runtime-main.js.map": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js.map",
     "static/js/2.755dcc04.chunk.js": "/ym-website-staging/static/js/2.755dcc04.chunk.js",
@@ -48,6 +48,7 @@
     "static/media/34-CN.79422d10.jpg": "/ym-website-staging/static/media/34-CN.79422d10.jpg",
     "static/media/35-magnum.a6d578f7.jpg": "/ym-website-staging/static/media/35-magnum.a6d578f7.jpg",
     "static/media/36-TimHortons.21db19ca.jpg": "/ym-website-staging/static/media/36-TimHortons.21db19ca.jpg",
+    "static/media/37-ChampagneNicolas.458d7646.jpg": "/ym-website-staging/static/media/37-ChampagneNicolas.458d7646.jpg",
     "static/media/38-TPG.b91279e7.jpg": "/ym-website-staging/static/media/38-TPG.b91279e7.jpg",
     "static/media/39-Rexel.112640c3.jpg": "/ym-website-staging/static/media/39-Rexel.112640c3.jpg",
     "static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg": "/ym-website-staging/static/media/4-Stadium-BAKU-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.39fcb5d3.jpg",
@@ -74,7 +75,7 @@
     "static/media/64-LotoQuebec.42035cbb.jpg": "/ym-website-staging/static/media/64-LotoQuebec.42035cbb.jpg",
     "static/media/65-Mobilia50thBirthdayCampaign.108cb2d5.jpg": "/ym-website-staging/static/media/65-Mobilia50thBirthdayCampaign.108cb2d5.jpg",
     "static/media/66-SidLee.45561a8e.jpg": "/ym-website-staging/static/media/66-SidLee.45561a8e.jpg",
-    "static/media/67-ProductionsDéferlantes.27f7050f.jpg": "/ym-website-staging/static/media/67-ProductionsDéferlantes.27f7050f.jpg",
+    "static/media/67-ProductionsDeferlantes.27f7050f.jpg": "/ym-website-staging/static/media/67-ProductionsDeferlantes.27f7050f.jpg",
     "static/media/68-BiteSizeEntertainement.535d252c.jpg": "/ym-website-staging/static/media/68-BiteSizeEntertainement.535d252c.jpg",
     "static/media/69-Grandbaldesvins-cœurs.3cdaf709.jpg": "/ym-website-staging/static/media/69-Grandbaldesvins-cœurs.3cdaf709.jpg",
     "static/media/70-TrioOrange.b6081649.jpg": "/ym-website-staging/static/media/70-TrioOrange.b6081649.jpg",
@@ -98,7 +99,6 @@
     "static/media/Canadian National Railway - Logo.f8027cc4.png": "/ym-website-staging/static/media/Canadian National Railway - Logo.f8027cc4.png",
     "static/media/Canadian Olympic Committee - Logo.c871c28e.png": "/ym-website-staging/static/media/Canadian Olympic Committee - Logo.c871c28e.png",
     "static/media/Carnival UK - P&O Cruises - Cunard-4.556467cf.png": "/ym-website-staging/static/media/Carnival UK - P&O Cruises - Cunard-4.556467cf.png",
-    "static/media/Champagne Nicolas Feuillate - Campagne monde equilibriste.bb33fec2.jpg": "/ym-website-staging/static/media/Champagne Nicolas Feuillate - Campagne monde equilibriste.bb33fec2.jpg",
     "static/media/Champagne Nicolas Feuillatte - Logo2.876a07f7.png": "/ym-website-staging/static/media/Champagne Nicolas Feuillatte - Logo2.876a07f7.png",
     "static/media/Christian-Lagueux-7b.02c42ba5.jpg": "/ym-website-staging/static/media/Christian-Lagueux-7b.02c42ba5.jpg",
     "static/media/Club Med - Logo.e9139b94.png": "/ym-website-staging/static/media/Club Med - Logo.e9139b94.png",
@@ -151,6 +151,6 @@
     "static/js/runtime-main.e2a4bb3a.js",
     "static/js/2.755dcc04.chunk.js",
     "static/css/main.39dba3c0.chunk.css",
-    "static/js/main.723b57f6.chunk.js"
+    "static/js/main.438f367a.chunk.js"
   ]
 }
