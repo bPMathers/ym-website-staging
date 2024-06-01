@@ -55,6 +55,11 @@ const TeamComponent = () => {
                                 teamMember={teamMemberData[0]}
                             />
                         </div>
+                        <div onClick={handleTeamMemberClick(4)}>
+                            <TeamMemberComponent
+                                teamMember={teamMemberData[4]}
+                            />
+                        </div>
                         <div onClick={handleTeamMemberClick(1)}>
                             <TeamMemberComponent
                                 teamMember={teamMemberData[1]}
@@ -72,6 +77,7 @@ const TeamComponent = () => {
                                 teamMember={teamMemberData[3]}
                             />
                         </div>
+
                         {/* <div onClick={handleTeamMemberClick(3)}>
                             <TeamMemberComponent
                                 teamMember={teamMemberData[3]}

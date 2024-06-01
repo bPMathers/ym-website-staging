@@ -2,6 +2,7 @@ import benjImg from '../../assets/Team/MemberChoiceItemPhotos/Benjamin-Proulx-Ma
 import chrisImg from '../../assets/Team/MemberChoiceItemPhotos/Christian-Lagueux-7b.jpg';
 import dannyImg from '../../assets/Team/MemberChoiceItemPhotos/Danny-Black-Background4.jpg';
 import joshImg from '../../assets/Team/MemberChoiceItemPhotos/Josh9-578x867.jpg';
+import sebImg from '../../assets/Team/MemberChoiceItemPhotos/Seb7.jpg';
 
 export const teamMemberData = [
     {
@@ -27,5 +28,11 @@ export const teamMemberData = [
         name: 'Joshua Eagan',
         role: 'PARNTER - STUDIO C / THE STEAKHOUSE STUDIO',
         image: joshImg,
+    },
+    {
+        id: 5,
+        name: 'Sébastien Laurendeau',
+        role: 'MUSICAL DIRECTOR',
+        image: sebImg,
     },
 ];

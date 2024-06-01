@@ -64,21 +64,23 @@ const TeamComponentMobile = () => {
                         </div>
                     </div>
                     <div className={classes.photosRow}>
+                        <div onClick={handleTeamMemberClick(4)}>
+                            <TeamMemberComponentMobile
+                                teamMember={teamMemberData[4]}
+                            />
+                        </div>
                         <div onClick={handleTeamMemberClick(2)}>
                             <TeamMemberComponentMobile
                                 teamMember={teamMemberData[2]}
                             />
                         </div>
+                    </div>
+                    <div className={classes.photosRow}>
                         <div onClick={handleTeamMemberClick(3)}>
                             <TeamMemberComponentMobile
                                 teamMember={teamMemberData[3]}
                             />
                         </div>
-                        {/* <div onClick={handleTeamMemberClick(3)}>
-                            <TeamMemberComponentMobile
-                                teamMember={teamMemberData[3]}
-                            />
-                        </div> */}
                     </div>
                 </div>
             </div>
