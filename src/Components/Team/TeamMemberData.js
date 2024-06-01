@@ -32,7 +32,7 @@ export const teamMemberData = [
     {
         id: 5,
         name: 'Sébastien Laurendeau',
-        role: 'MUSICAL DIRECTOR',
+        role: 'MUSICAL DIRECTOR - COMPOSER',
         image: sebImg,
     },
 ];
