@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ym-website-staging/static/css/main.39dba3c0.chunk.css",
-    "main.js": "/ym-website-staging/static/js/main.fee898d6.chunk.js",
-    "main.js.map": "/ym-website-staging/static/js/main.fee898d6.chunk.js.map",
+    "main.js": "/ym-website-staging/static/js/main.a3374915.chunk.js",
+    "main.js.map": "/ym-website-staging/static/js/main.a3374915.chunk.js.map",
     "runtime-main.js": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js",
     "runtime-main.js.map": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js.map",
     "static/js/2.755dcc04.chunk.js": "/ym-website-staging/static/js/2.755dcc04.chunk.js",
@@ -133,6 +133,7 @@
     "static/media/Rexel - Logo.97a603cb.png": "/ym-website-staging/static/media/Rexel - Logo.97a603cb.png",
     "static/media/SAP - Logo2.c42eef75.png": "/ym-website-staging/static/media/SAP - Logo2.c42eef75.png",
     "static/media/Sales Force - Logo2.19b27994.png": "/ym-website-staging/static/media/Sales Force - Logo2.19b27994.png",
+    "static/media/Seb7.7ab81436.jpg": "/ym-website-staging/static/media/Seb7.7ab81436.jpg",
     "static/media/Sid Lee - New Logo2.e1a755e6.png": "/ym-website-staging/static/media/Sid Lee - New Logo2.e1a755e6.png",
     "static/media/Situ Studio - Logo.e7aa6d9c.png": "/ym-website-staging/static/media/Situ Studio - Logo.e7aa6d9c.png",
     "static/media/Skoda Auto2 - Logo.829fbfe6.png": "/ym-website-staging/static/media/Skoda Auto2 - Logo.829fbfe6.png",
@@ -151,6 +152,6 @@
     "static/js/runtime-main.e2a4bb3a.js",
     "static/js/2.755dcc04.chunk.js",
     "static/css/main.39dba3c0.chunk.css",
-    "static/js/main.fee898d6.chunk.js"
+    "static/js/main.a3374915.chunk.js"
   ]
 }
