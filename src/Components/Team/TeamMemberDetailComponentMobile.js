@@ -10,6 +10,7 @@ import ChrisPointFormComponent from './ChrisPointFormComponent';
 import BenjPointFormComponent from './BenjPointFormComponent';
 import DannyPointFormComponent from './DannyPointFormComponent';
 import JoshPointFormComponent from './JoshPointFormComponent';
+import SebPointFormComponent from './SebPointFormComponent';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -101,6 +102,7 @@ export default function TeamMemberDetailComponentMobile(props) {
                     {teamMemberDetail?.id === 2 && <BenjPointFormComponent />}
                     {teamMemberDetail?.id === 3 && <DannyPointFormComponent />}
                     {teamMemberDetail?.id === 4 && <JoshPointFormComponent />}
+                    {teamMemberDetail?.id === 5 && <SebPointFormComponent />}
                 </div>
             </Dialog>
         </div>

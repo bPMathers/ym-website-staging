@@ -95,7 +95,8 @@ const ProjectsComponent = ({ projectsData }) => {
     // const getProjs = () =>
     //     concatArrayInPlace(nineFirstProj, items / 9).slice(0, items);
 
-    const getProjs = () => projectsData.sort((a, b) => a.id - b.id);
+    const getProjs = () =>
+        projectsData.sort((a, b) => a.id - b.id).slice(0, 20);
 
     return (
         <>
