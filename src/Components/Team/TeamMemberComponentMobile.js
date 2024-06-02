@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Fade } from '@material-ui/core';
 const memberPhotoRatio = 1.5;
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        // width: '160px',
-        // height: '240px',
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.secondary.main,
         display: 'flex',
@@ -15,20 +12,6 @@ const useStyles = makeStyles((theme) => ({
             cursor: 'pointer',
         },
     },
-
-    // hoverContainer: {
-    //     position: 'absolute',
-    //     bottom: '20%',
-    //     right: 0,
-    //     opacity: '0.3',
-    //     display: 'flex',
-    //     flexDirection: 'column',
-    //     alignItems: 'center',
-    //     justifyContent: 'flex-end',
-    //     height: '240px',
-    //     width: '100%',
-    //     textDecoration: 'none',
-    // },
     opacity: {
         opacity: 0.2,
     },

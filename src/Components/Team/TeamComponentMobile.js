@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import TeamMemberComponent from './TeamMemberComponent';
-import TeamMemberDetailComponent from './TeamMemberDetailComponent';
 import { teamMemberData } from './TeamMemberData';
 import TeamMemberDetailComponentMobile from './TeamMemberDetailComponentMobile';
 import TeamMemberComponentMobile from './TeamMemberComponentMobile';

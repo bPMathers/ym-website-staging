@@ -6,18 +6,15 @@ import { projectsData } from '../../Components/Projects/ProjectsData';
 import NathanComponentMobile from '../../Components/Nathan/NathanComponentMobile';
 import TeamComponentMobile from '../../Components/Team/TeamComponentMobile';
 import ProjectsComponentMobile from '../../Components/Projects/ProjectsComponentMobile';
-import CreativeCollaboratorsComponentMobile from '../../Components/CC/CreativeCollaboratorsComponentMobile';
 import ContactPageComponentMobile from '../Contact/ContactPageComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        // maxWidth: '370px',
         width: '100vw',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        // marginTop: '60px',
     },
     mobileTitleSection: {
         display: 'flex',

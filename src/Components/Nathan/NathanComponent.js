@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
 import NathanIndividualVideo from './NathanIndividualVideo';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,15 +43,6 @@ const NathanComponent = () => {
                         marginRight={'0px'}
                     />
                 </div>
-                {/* <Typography
-                    variant="h5"
-                    style={{
-                        color: 'white',
-                        fontSize: '12px',
-                    }}
-                >
-                    Touch Designer: Nathan Roy
-                </Typography> */}
             </div>
         </div>
     );

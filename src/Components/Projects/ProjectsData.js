@@ -65,11 +65,9 @@ import bomb3ProjImg from '../../assets/Projects/_featured/18-bombardier-plane.jp
 
 import cocProjImg from '../../assets/Projects/_featured/33-CoC.jpg';
 import courchevelProjImg from '../../assets/Projects/_featured/courchevel-night-1-721x471.jpg';
-import glade2ProjImg from '../../assets/Projects/glade-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import scJohnsonProjImg from '../../assets/Projects/_featured/32-SCJ.jpg';
 import magnum2ProjImg from '../../assets/Projects/_featured/35-magnum.jpg';
 import poppinsProjImg from '../../assets/Projects/_featured/24-MaryPop.jpg';
-import nucleusProjImg from '../../assets/Projects/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.jpg';
 import lotoQuebecProjImg from '../../assets/Projects/_featured/64-LotoQuebec.jpg';
 import sidLeeProjImg from '../../assets/Projects/_featured/66-SidLee.jpg';
 import eyProjImg from '../../assets/Projects/_featured/15-Ernst&Young-Logo.jpg';

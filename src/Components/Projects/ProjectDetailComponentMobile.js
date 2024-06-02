@@ -10,8 +10,6 @@ import ArrowRight from '@material-ui/icons/ArrowRight';
 import ArrowLeft from '@material-ui/icons/ArrowLeft';
 import Slide from '@material-ui/core/Slide';
 import { DialogContent } from '@material-ui/core';
-import { List } from 'react-virtualized';
-import clsx from 'clsx';
 
 const projectWidth = window.innerWidth * 0.9;
 const projectHeight = projectWidth / 1.53;
@@ -125,14 +123,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 export default function ProjectDetailComponentMobile(props) {
-    const {
-        open,
-        onClose,
-        onNavigate,
-        projectsData,
-        onSelectItemFromList,
-        project,
-    } = props;
+    const { open, onClose, onNavigate, project } = props;
     const classes = useStyles();
 
     const [projectDetail, setProjectDetail] = useState(undefined);
