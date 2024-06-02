@@ -8,7 +8,7 @@ export const teamMemberData = [
     {
         id: 1,
         name: 'Christan Lagueux',
-        role: 'FOUNDER - COMPOSER',
+        role: 'FOUNDER - PRODUCER - COMPOSER',
         image: chrisImg,
     },
     {
