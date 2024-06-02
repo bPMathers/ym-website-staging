@@ -58,7 +58,7 @@ const SebPointFormComponent = () => {
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Cofounder or Trigger
+                    <span className={classes.point}>•</span>Cofounder of Trigger
                     Records, a Canadian record label. Under licence with Warner
                     Music Canada.
                 </Typography>
