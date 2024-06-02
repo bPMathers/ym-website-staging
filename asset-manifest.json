@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ym-website-staging/static/css/main.9d18a219.chunk.css",
-    "main.js": "/ym-website-staging/static/js/main.0aaef01e.chunk.js",
-    "main.js.map": "/ym-website-staging/static/js/main.0aaef01e.chunk.js.map",
+    "main.js": "/ym-website-staging/static/js/main.930afa55.chunk.js",
+    "main.js.map": "/ym-website-staging/static/js/main.930afa55.chunk.js.map",
     "runtime-main.js": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js",
     "runtime-main.js.map": "/ym-website-staging/static/js/runtime-main.e2a4bb3a.js.map",
-    "static/js/2.fbb774bc.chunk.js": "/ym-website-staging/static/js/2.fbb774bc.chunk.js",
-    "static/js/2.fbb774bc.chunk.js.map": "/ym-website-staging/static/js/2.fbb774bc.chunk.js.map",
+    "static/js/2.943718a4.chunk.js": "/ym-website-staging/static/js/2.943718a4.chunk.js",
+    "static/js/2.943718a4.chunk.js.map": "/ym-website-staging/static/js/2.943718a4.chunk.js.map",
     "index.html": "/ym-website-staging/index.html",
     "static/css/main.9d18a219.chunk.css.map": "/ym-website-staging/static/css/main.9d18a219.chunk.css.map",
-    "static/js/2.fbb774bc.chunk.js.LICENSE.txt": "/ym-website-staging/static/js/2.fbb774bc.chunk.js.LICENSE.txt",
+    "static/js/2.943718a4.chunk.js.LICENSE.txt": "/ym-website-staging/static/js/2.943718a4.chunk.js.LICENSE.txt",
     "static/media/01-NBA-Logo.c891bff2.jpg": "/ym-website-staging/static/media/01-NBA-Logo.c891bff2.jpg",
     "static/media/02-FIFA-Logo2.6e57e57b.png": "/ym-website-staging/static/media/02-FIFA-Logo2.6e57e57b.png",
     "static/media/04-MomentFactory-Logo.07dec684.jpg": "/ym-website-staging/static/media/04-MomentFactory-Logo.07dec684.jpg",
@@ -125,7 +125,6 @@
     "static/media/Montreal Canadiens - Logo.a36ac928.png": "/ym-website-staging/static/media/Montreal Canadiens - Logo.a36ac928.png",
     "static/media/Montreal en lumiere - Logo2.9736119f.png": "/ym-website-staging/static/media/Montreal en lumiere - Logo2.9736119f.png",
     "static/media/NBA - Logo.dccfe25a.png": "/ym-website-staging/static/media/NBA - Logo.dccfe25a.png",
-    "static/media/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.04d878ca.jpg": "/ym-website-staging/static/media/NUCLEUS-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.04d878ca.jpg",
     "static/media/One Drop - New Logo.f728fbe5.png": "/ym-website-staging/static/media/One Drop - New Logo.f728fbe5.png",
     "static/media/OneDrop.e2f95eb3.jpg": "/ym-website-staging/static/media/OneDrop.e2f95eb3.jpg",
     "static/media/Prince Edward Island - Logo.c329ddd0.png": "/ym-website-staging/static/media/Prince Edward Island - Logo.c329ddd0.png",
@@ -144,14 +143,13 @@
     "static/media/Trio Orange - New logo.19c95fdc.png": "/ym-website-staging/static/media/Trio Orange - New logo.19c95fdc.png",
     "static/media/World Economic Forum - Logo2.3d79e379.png": "/ym-website-staging/static/media/World Economic Forum - Logo2.3d79e379.png",
     "static/media/courchevel-night-1-721x471.f995ebbb.jpg": "/ym-website-staging/static/media/courchevel-night-1-721x471.f995ebbb.jpg",
-    "static/media/glade-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.4354ce96.jpg": "/ym-website-staging/static/media/glade-2-Benjamin-Proulx-Mathers-Christian-Lagueux-YUL-MUSIC-Montreal-Composer.4354ce96.jpg",
     "static/media/moment.8b8a04f4.png": "/ym-website-staging/static/media/moment.8b8a04f4.png",
     "static/media/viz_05.2141d424.mp4": "/ym-website-staging/static/media/viz_05.2141d424.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.e2a4bb3a.js",
-    "static/js/2.fbb774bc.chunk.js",
+    "static/js/2.943718a4.chunk.js",
     "static/css/main.9d18a219.chunk.css",
-    "static/js/main.0aaef01e.chunk.js"
+    "static/js/main.930afa55.chunk.js"
   ]
 }
