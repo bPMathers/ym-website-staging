@@ -4,8 +4,9 @@ import { Button, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        height: '100vh',
+        // height: '100vh',
         width: '100vw',
+        padding: '100px 0px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

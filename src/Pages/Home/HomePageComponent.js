@@ -5,8 +5,8 @@ import TeamComponent from '../../Components/Team/TeamComponent';
 import { Typography } from '@material-ui/core';
 import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 import NathanComponent from '../../Components/Nathan/NathanComponent';
-import CreativeCollaboratorsComponent from '../../Components/CC/CreativeCollaboratorsComponent';
 import { projectsData } from '../../Components/Projects/ProjectsData';
+import ContactPageComponent from '../Contact/ContactPageComponent';
 
 const useStyles = makeStyles((theme) => ({
     titleContainer: {
@@ -50,9 +50,6 @@ const useStyles = makeStyles((theme) => ({
     projectsSection: {
         marginBottom: '50px',
     },
-    creativeCollaboratorsSection: {
-        marginTop: '70px',
-    },
     contactSection: {
         marginBottom: '50px',
     },
@@ -93,11 +90,8 @@ const HomePageComponent = () => {
             <div id="projectsSection" className={classes.projectsSection}>
                 <ProjectsComponent projectsData={projectsData} />
             </div>
-            <div
-                id="creativeCollaboratorsSection"
-                className={classes.creativeCollaboratorsSection}
-            >
-                <CreativeCollaboratorsComponent />
+            <div id="contactSection" className={classes.contactSection}>
+                <ContactPageComponent />
             </div>
             <div
                 style={{

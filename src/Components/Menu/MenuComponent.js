@@ -7,7 +7,6 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
@@ -17,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
     menuList: {
         width: '100vw',
         height: '100vh',
-        // backgroundColor: theme.palette.primary.main,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-evenly',
@@ -36,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
         position: 'fixed',
         right: '10px',
         top: '10px',
-        // zIndex: '999',
     },
     closeButton: {
         color: theme.palette.secondary.main,
@@ -46,10 +43,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-// TODO: RANDOMIZE COLOR INSTEAD OF MAKING IT DEPENEDENT ON location.pathname since is onepager ?
 export default function MenuComponent(props) {
-    // let location = useLocation();
-
     const classes = useStyles();
     const [open, setOpen] = useState(false);
     const anchorRef = useRef(null);
@@ -177,17 +171,6 @@ export default function MenuComponent(props) {
                                             </Typography>
                                         </MenuItem>
                                     </HashLink>
-                                    {/* <HashLink
-                    to="/#servicesSection"
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.menuItem}
-                    >
-                      <Typography variant={'h2'}>Services</Typography>
-                    </MenuItem>
-                  </HashLink> */}
                                     <HashLink
                                         to="/#projectsSection"
                                         style={{ textDecoration: 'none' }}
@@ -202,20 +185,7 @@ export default function MenuComponent(props) {
                                         </MenuItem>
                                     </HashLink>
                                     <HashLink
-                                        to="/#creativeCollaboratorsSection"
-                                        style={{ textDecoration: 'none' }}
-                                    >
-                                        <MenuItem
-                                            onClick={handleClose}
-                                            className={classes.menuItem}
-                                        >
-                                            <Typography variant={'h2'}>
-                                                Creative Collaborators
-                                            </Typography>
-                                        </MenuItem>
-                                    </HashLink>
-                                    <Link
-                                        to="/contact"
+                                        to="/#contactSection"
                                         style={{ textDecoration: 'none' }}
                                     >
                                         <MenuItem
@@ -226,7 +196,7 @@ export default function MenuComponent(props) {
                                                 Contact
                                             </Typography>
                                         </MenuItem>
-                                    </Link>
+                                    </HashLink>
                                 </MenuList>
                             </ClickAwayListener>
                         </Paper>
