@@ -26,7 +26,7 @@ export const teamMemberData = [
     {
         id: 4,
         name: 'Joshua Eagan',
-        role: 'PARNTER - STUDIO C / THE STEAKHOUSE STUDIO',
+        role: 'PARTNER - STUDIO C / THE STEAKHOUSE STUDIO',
         image: joshImg,
     },
     {

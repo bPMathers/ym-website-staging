@@ -47,6 +47,14 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: theme.spacing(2),
         flex: 1,
     },
+    nameContainer: {
+        backgroundColor: theme.palette.primary.main,
+        color: theme.palette.common.white,
+        width: '100%',
+        textAlign: 'center',
+        fontWeight: 700,
+        fontSize: '0.8em',
+    },
 }));
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -91,12 +99,16 @@ export default function TeamMemberDetailComponentMobile(props) {
                 {teamMemberDetail && (
                     <div className={classes.imageContainer}>
                         <img
-                            src={teamMemberDetail.image}
+                            src={teamMemberDetail?.image}
                             width={'350px'}
-                            alt="Christian Lagueux"
+                            alt={teamMemberDetail?.name}
                         />
                     </div>
                 )}
+                <div className={classes.nameContainer}>
+                    {teamMemberDetail?.name.toUpperCase()} :{' '}
+                    {teamMemberDetail?.role}
+                </div>
                 <div className={classes.pointFormContainer}>
                     {teamMemberDetail?.id === 1 && <ChrisPointFormComponent />}
                     {teamMemberDetail?.id === 2 && <BenjPointFormComponent />}

@@ -43,6 +43,9 @@ const DannyPointFormComponent = () => {
 
     return (
         <div className={classes.container}>
+            <Typography variant="h2" className={classes.title}>
+                PROFESSIONAL HIGHLIGHTS
+            </Typography>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
                     <span className={classes.point}>•</span>Creative Development

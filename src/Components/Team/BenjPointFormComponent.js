@@ -45,9 +45,8 @@ const BenjPointFormComponent = () => {
             </Typography>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Composer - Artistic
-                    Director at YUL MUSIC, a company dedicated to music creation
-                    and production.
+                    <span className={classes.point}>•</span>Composer at YUL
+                    MUSIC.
                 </Typography>
             </div>
             <div className={classes.pointRow}>

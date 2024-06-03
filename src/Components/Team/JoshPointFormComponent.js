@@ -38,6 +38,9 @@ const JoshPointFormComponent = () => {
 
     return (
         <div className={classes.container}>
+            <Typography variant="h2" className={classes.title}>
+                PROFESSIONAL HIGHLIGHTS
+            </Typography>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
                     Joshua Seth Eagan is a Studio Musician in Los Angeles and
