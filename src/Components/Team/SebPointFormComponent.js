@@ -45,27 +45,27 @@ const SebPointFormComponent = () => {
             </Typography>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Composer - Musical
+                    <span className={classes.point}>•</span>Composer and Musical
                     Director at YUL MUSIC.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
                     <span className={classes.point}>•</span>Founder of Mamūt
-                    Entertainments Ltd. A record label and media creation
+                    Entertainments Ltd, a record label and media creation
                     company based in Las Vegas.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Cofounder of Trigger
-                    Records, a Canadian record label. Under licence with Warner
+                    <span className={classes.point}>•</span>Cofounder or Trigger
+                    Records, a Canadian record label, under licence with Warner
                     Music Canada.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Composer , music
+                    <span className={classes.point}>•</span>Composer, music
                     director and musician for Cirque du Soleil for over 20
                     years.
                 </Typography>
@@ -84,22 +84,22 @@ const SebPointFormComponent = () => {
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Music editor for
-                    « Sagwa the Chinese Siamese Cat » tv series produced by
+                    <span className={classes.point}>•</span>Music producer and
+                    executive producer for various albums.
+                </Typography>
+            </div>
+            <div className={classes.pointRow}>
+                <Typography variant="body2" className={classes.pointRowText}>
+                    <span className={classes.point}>•</span>Music editor for «
+                    Sagwa the Chinese Siamese Cat » a TV series produced by
                     Sesame Workshop and Cinegroup.
                 </Typography>
             </div>
             <div className={classes.pointRow}>
                 <Typography variant="body2" className={classes.pointRowText}>
                     <span className={classes.point}>•</span>Composer and
-                    producer for various Advertising campaign, jingles and TV
+                    producer for various advertising campaigns, jingles and TV
                     show themes.
-                </Typography>
-            </div>
-            <div className={classes.pointRow}>
-                <Typography variant="body2" className={classes.pointRowText}>
-                    <span className={classes.point}>•</span>Music producer and
-                    executive producer for various albums.
                 </Typography>
             </div>
         </div>
