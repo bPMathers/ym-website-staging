@@ -7,6 +7,7 @@ import NathanComponentMobile from '../../Components/Nathan/NathanComponentMobile
 import TeamComponentMobile from '../../Components/Team/TeamComponentMobile';
 import ProjectsComponentMobile from '../../Components/Projects/ProjectsComponentMobile';
 import ContactPageComponentMobile from '../Contact/ContactPageComponentMobile';
+import MoonComponentMobile from '../../Components/Moon/MoonComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -55,6 +56,7 @@ const HomePageComponentMobile = () => {
 
     return (
         <div className={classes.container}>
+            <MoonComponentMobile />
             <div className={classes.mobileTitleSection}>
                 <Typography className={classes.mobileTitle} variant={'h1'}>
                     YUL MUSIC

@@ -7,6 +7,7 @@ import ProjectsComponent from '../../Components/Projects/ProjectsComponent';
 import NathanComponent from '../../Components/Nathan/NathanComponent';
 import { projectsData } from '../../Components/Projects/ProjectsData';
 import ContactPageComponent from '../Contact/ContactPageComponent';
+import MoonComponentMobile from '../../Components/Moon/MoonComponentMobile';
 
 const useStyles = makeStyles((theme) => ({
     titleContainer: {
@@ -61,6 +62,7 @@ const HomePageComponent = () => {
     return (
         <div id="top">
             <div className={classes.titleContainer}>
+                <MoonComponentMobile />
                 <div className={classes.title}>
                     <Typography
                         variant={'h1'}
